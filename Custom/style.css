@@ -1,0 +1,3533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------index------------------ */
+/* ----------header------------------ */
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+ .father{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "index1"
+    "index2"
+    "index3"
+    "index4"
+    "index5"
+    "index6"
+    "footer";
+}
+
+header{
+    height: 15em;
+    width: 100%;
+    background-color: hsl(268, 53%, 23%);
+    display: flex;
+    flex-direction: row;
+    grid-area: header;
+}
+
+
+.container-fluid{
+    margin-left: 4em;
+}
+
+
+.navbar-toggler{
+    margin-top: 6em;
+    margin-left: -8.5em;
+}
+
+.logo{
+    width: 5.5em;
+    height: 5.5em;
+    margin-left: 2em;
+    margin-top: 3em;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+
+
+
+
+/* ----------------IndexSection1-------------------------- */
+
+
+ .indexSectionOne{
+    background-color: #5B4B8A; 
+    height: 30em;
+    width: 100%;
+    grid-area: index1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.containerIndexOne h1{
+    width: 75%;
+    line-height: 3em;
+    margin-left: 1.5em;
+    font-size: 1.3em;
+}
+
+.containerIndexOne h2{
+    margin-left: 1.5em;
+    font-size: 1.5em;
+    width: 80%;
+
+}
+
+.containerIndexOne p{
+    width: 80%;
+    margin-left: 2em;;
+    margin-top: 2em;
+    line-height: 1.1em;
+    font-size: 1.1em;
+
+}
+
+.DiscoverAuraButton{
+    width: 7em;
+    border: 1.5px solid;
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+    font-size: 1em;
+    margin-left: 1.5em;
+    padding: 0.2em;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+} 
+
+
+/* ----------------IndexSection2-------------------------- */
+
+ .indexSectionTwo{
+    background-color: rgb(255, 255, 255);
+    height: 42em;
+    width: 100%;
+    grid-area: index2;
+
+}
+
+.containerIndexTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerIndexTwo h2{
+    display: inline;
+    margin-top: 1em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.containerIndexTwo h3{
+    width: 90%;
+    font-size: 1.8em;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+
+.containerIndexTwo p{
+    width: 90%;
+    font-size: 1.1em;
+    margin-top: 1em;
+    text-align: center;
+} 
+
+.videoIndex2{
+    display: block;
+    width: 75%;
+    height: 35vh;
+    margin: 0 auto;
+}
+
+.video{
+    margin-top: 3em;
+    width: 100%;
+    height: 40vh;
+}
+
+
+/* ----------------IndexSection3-------------------------- */
+
+
+ .indexSectionThree{
+    background-color: white;
+    height: 65em;
+    grid-area: index3;
+    width: 100%;
+}
+
+.containerIndexThree{
+    display: flex;
+    flex-direction: column;
+}
+
+ .divisionIndexThree{
+    margin-left: 1em;
+    max-width: 90%;
+    height: 15em;
+    margin-top: 1em;
+}
+
+ .divisionIndexThree h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-left: 1em;
+
+}
+
+.divisionIndexThree p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: 85%;
+} 
+
+.blockchainIcon{
+    margin-left: 1em;
+    width: 3em;
+    height: 3em;
+}
+
+
+/* ----------------IndexSection4-------------------------- */
+ 
+.indexSectionFour{
+    width: 100%;
+    grid-area: index4;
+
+}
+
+.containerIndexFour{
+    height: 90em;
+    background-color: rgb(206, 143, 25);
+    display: flex;
+    flex-direction: column;
+}
+
+.introIndexFour{
+    width: 100%;
+    height: 25em;
+    background-color: #5e1abe;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    
+}
+ 
+.introIndexFour h2{
+    margin-left: 1em;
+    margin-top: 2em;
+    font-size: 1.6em;
+    width: 70%;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    color: white;
+
+
+}
+
+.introIndexFour p{
+    font-size: 1.3em;
+    height: 5em;
+    width: 90%;
+    margin-left: 1em;
+    margin-top: 0.25em;
+    line-height: 1.4em;
+    color: white;
+
+
+}
+
+.intro1{
+    display: flex;
+    flex-direction: column;
+    gap: -1em;
+    /* border-bottom: 2px solid black; */
+
+}
+
+.buttonBuildNow{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 6em;
+    border: 1.5px solid;
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+    font-size: 1em;
+    margin-left: 1.5em;
+    padding: 0.2em;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.divisionsIndexFour{
+    background-color: #5e1abe;
+    height: 70em;
+
+}
+
+.divisionIndexFour1 , .divisionIndexFour2, .divisionIndexFour3{
+    background-color: #5e1abe;
+    width: 95%;
+    height: 20em;
+    margin: 2em auto;
+    padding: 0.5em;
+    color: white;
+
+}
+
+.divisionIndexFour1 h2, .divisionIndexFour2 h2,.divisionIndexFour3 h2{
+    font-size: 1.5em;
+}
+
+.divisionIndexFour1 p, .divisionIndexFour2 p,.divisionIndexFour3 p{
+    font-size: 1.1em;
+    margin-top: 0.5em;
+}  
+
+.buttonArrow{
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+
+.arrow{
+    margin-top: 0em;
+    width: 2em;
+    height: 2em;
+} 
+
+
+/* ----------------IndexSection5-------------------------- */
+ 
+.containerIndexFive{
+    width: 100%;
+    height: 92em;
+    grid-area: index5;
+    background-color: white;
+}
+
+.indexSectionFiveBackers{
+    height: 60em;
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+.containerIndexFiveBackers{
+    min-width: 95%;
+    height: 60em;
+    margin: auto;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerIndexFiveBackers h2{
+    font-size: 2.5em;
+
+}
+
+.backers{
+    padding-left: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+    grid-row-gap: 2em;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.backers li{
+    margin: 0.5em;
+    list-style: none;
+    width: 8em;
+    height: 4em;
+}   
+
+.backers li img{
+    /* max-width: 5em;
+    max-height: 5em;   */
+    max-width: 12.5em;
+    max-height: 4.37em;   
+    width: 100%;
+    height: 100%;
+}
+
+.indexSectionFiveSupporters{
+    background-color: white;
+    height: 30em;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+.containerIndexFiveSupporters{
+    background-color: white;
+    width: 95%;
+    height: 30em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerIndexFiveSupporters h2{
+    font-size: 2.5em;
+
+}
+
+.supporters{
+    padding-left: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3em;
+    grid-row-gap: 2em;
+    margin-top: 1em;
+    align-items: center;
+} 
+
+.supporters li{
+    margin: auto;
+    list-style: none;
+    width: 8em;
+    height: 4em;
+}   
+
+.supporters li img{
+    /* max-width: 5em;
+    max-height: 5em;  */
+    max-width: 12.5em;
+    max-height: 4.37em;  
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------IndexSection6-------------------------- */
+ .indexSectionSix{
+    height: 60rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    grid-area: index6;
+}
+
+.containerIndexSix{
+    background-color: #371B58;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 28em;
+}
+
+.containerIndexSix h2{
+    display: inline;
+    margin-top: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    color:  rgb(8, 7, 110);
+}
+
+.containerIndexSix h3{
+    width: 90%;
+    font-size: 1.8em;
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+
+}
+
+.containerIndexSix p{
+    font-size: 1.3em;
+    margin-top: 1em;
+    width: 90%;
+    text-align: center;
+    color: white;
+}
+
+.socialNetworks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 1em;
+
+}
+
+.socials{
+    background-color: #5B4B8A;
+    width: 9em;
+    height: 6rem;
+    text-align: center;
+    margin: 1em auto;
+    border-radius: 15px;
+}
+
+.socials p{
+    display: none;
+}
+
+.socials h3{
+    margin-top: 1.7rem;
+    text-align: center;
+    align-items: center;
+    line-height: 0rem;
+
+}
+
+.socialIntro{
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: #5B4B8A;
+    color: white;
+}
+
+.socialIntro h3{
+    margin-left: 0.30rem;
+} 
+
+
+
+/* ----------------footer-------------------------- */
+ 
+footer{
+    height: 85rem;
+    background-color: #371B58;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-area: footer;
+
+}
+
+.containerFooter{
+    background-color: #371B58;
+    width: 90%;
+    height: 80em;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+ .footerLists{
+    background-color: #371B58;
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    width: 90%;
+    align-items: flex-start;
+    
+}
+
+ .footerLists li{
+
+    text-align: left;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    list-style: none;
+    width: 100%;
+}
+
+ 
+.footerLists li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.footerLists p{
+    color: white;
+    margin-top: 3rem;
+    margin-left: 1em;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.footerIcons{
+    background-color: #371B58;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+ .socialListIcons{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: -1em;
+}
+
+.socialListIcons li{
+    list-style: none;
+} 
+ 
+.socialListIcons span{
+    display: none;
+} 
+
+.iconFooter{
+    width: 3.5rem;
+
+}
+.footerIcon{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0.5em;
+}
+
+.footerEnd{
+    display: flex;
+    flex-direction:row ;
+    gap: 0.5em;
+}
+ 
+.footerEnd p{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+ .footerV2{
+    width: 100%;
+    background-color: #371B58;    
+    height: 13em;
+ }
+
+ .footerEndV2{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+ }
+
+ .footerEndV2 p{
+    color: white;
+    line-height: 3.5em;
+  
+ } 
+
+/* ---------------------technology1SectionOne--------------------------------------------- */
+
+
+.fathertech1{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "tech11"
+    "tech12"
+    "footer"
+}
+
+.technology1SectionOne{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%); 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-area: tech11;
+}
+
+.introToAura{
+    margin: 1em auto;
+    width: 90%;
+    height: 45em;
+}
+
+.introToAura h2{
+    width: 90%;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 1.9em;
+    color: white;
+}
+
+.introToAura p{
+    margin-left: 1.5em;
+    margin-top: 1em;
+    font-size: 1.1em;
+    width: 85%;
+    line-height: 1.5em;
+    color:white;
+
+}
+
+.technology1Picture1{
+    margin: -6em auto 2em;
+    width: 90%;
+}
+
+.techPicture1{
+    display: block;
+    margin: auto;
+    border: solid black 3px;
+    width: 95%;
+    height: 100%;
+}
+
+
+/* ---------------------technology1SectionTwo--------------------------------------------- */
+
+
+.containerTech1{
+}
+
+
+.technology1SectionTwo{
+    background: rgb(243,240,245);
+    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%;
+    grid-area: tech12;
+    height: 410em;
+}
+.column1{
+    display: none;
+}
+
+.column2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.whyAura{
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+    height: 145rem;
+    width: 90%;
+
+}
+
+.whyAura h2{
+    font-size: 40px;
+
+}
+
+.whyAura p{
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    width: 90%;
+
+}
+
+.auraWorks{
+    height: 170rem;
+    margin: 1em auto;
+    height: 205em;
+    width: 90%;
+}
+
+
+.auraWorks h2{
+    width: 90%;
+    font-size: 40px;
+
+}
+
+.auraWorks h3{
+    width: 90%;
+    font-size: 26px;
+    margin-top: 1rem;
+
+}
+.auraWorks2 h3{
+    width: 90%;
+    font-size: 26px;
+    margin-top: 1rem;
+
+}
+
+.auraWorks p{
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    width: 90%;
+}
+
+.auraWorks2 p{
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    width: 90%;
+}
+
+.auraGoing{
+    margin: 1em auto;
+    height: 15em;
+    width: 90%;
+
+}
+
+.auraGoing h2{
+    width: 90%;
+    font-size: 40px;
+
+}
+
+.auraGoing p{
+    width: 90%;
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+
+}
+
+.tech1Picture2{
+    display: block;
+    margin: 2em 0em;
+    border: solid black 3px;
+    width: 90%;
+    height: 50%;
+}
+
+.tech1Picture3{
+    display: block;
+    margin: 2em 0em;
+    border: solid black 3px;
+    width: 90%;
+    height: 50%;
+}
+
+.tech1Picture4{
+    display: block;
+    margin: 2em 0em;
+    border: solid black 3px;
+    width: 90%;
+    height: 50%;
+}
+
+
+/* ---------------------technology2 Section One--------------------------------------------- */
+
+
+ .fathertech1{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "tech21"
+    "tech22"
+    "tech23"
+    "tech24"
+    "tech25"
+    "footer"
+}
+
+ .technology2SectionOne{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;    height: 70rem;    height: 70em;
+    width: 100%;
+    grid-area: tech21;
+    height: 60em;
+    
+}
+ .stakeAura{
+    padding: 1em;
+    width: 90%;
+    margin: auto;
+    height: 50em;
+
+}
+
+.stakeAura h2{
+    margin-top: 1.5em;
+    text-align: left;
+    font-size: 2.2em;
+    width: 75%;
+    max-width: 70%;
+    color: white;
+}
+
+.stakeAura p{
+    margin-top: 1.5em;
+    width: 90%;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: -.17px;
+    color: white;
+
+}
+
+.stakeYourAurButton{
+    width: 8em;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+    font-size: 1.1em;
+    margin-left: 0em;
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+} 
+
+
+
+.technology2Picture1{
+    margin: auto;
+    width: 90%;
+}
+
+.tech2Picture1{
+    display: block;
+    margin: auto;
+    border: solid black 3px;
+    width: 90%;
+}
+
+
+
+/* -------------technology2section2----------------------------- */
+
+
+.technology2SectionTwo{
+    background-color: white;
+    height: 105em;
+    width: 100%;
+    grid-area: tech32;
+}
+
+.containerTechnology2{
+    display: flex;
+    flex-direction: column;
+}
+
+.divisionTechnology{
+    margin-left: 1em;
+    max-width: 90%;
+    height: 20em;
+    margin-top: 1.5em;
+}
+    /* margin: 1em auto;
+    max-width: 90%;
+    height: 25em;
+    padding: 1em;
+} */
+
+.divisionTechnology h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    /* width: 100%;
+    font-size: 1.3em;
+    font-weight: bold; */
+}
+
+.divisionTechnology p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    min-width: 90%;
+    max-width: 90%;
+    /* width: 100%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;   */
+} 
+
+
+
+/* -------------technology2section3----------------------------- */
+
+
+ 
+ .technology2SectionThree{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;    height: 70rem;    height: 70em;    height: 70rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-area: tech23;
+    height: 70em;
+
+
+}
+
+
+.fluidRewards{
+    width: 90%;
+    height: 50em;
+    color: white;
+}
+
+
+.fluidRewards h2{
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 1.9em;
+}
+
+.fluidRewards h3{
+    margin-left: 1.3em;
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+
+.fluidRewards p{
+    margin-left: 1.7em;
+    margin-top: 1em;
+    font-size: 1.1em;
+    width: 85%;
+    line-height: 1.5em;
+}
+
+
+.earnRewardsButton{
+    width: 8em;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: black;
+    color: black;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+} 
+
+
+
+.technology2Picture2{
+    margin: -5em auto;
+    width: 90%;
+    height: 20em;
+    display: flex;
+}
+
+.tech2Picture2{
+    display: block;
+    border: solid black 3px;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+}
+
+
+/* -------------technology2section4----------------------------- */
+
+.technology2SectionFour{
+    background-color: white;
+    height: 85em;
+    width: 100%;
+    grid-area: tech32;
+}
+
+
+.container2Technology2{
+    display: flex;
+    flex-direction: column;
+}
+
+.divisionTechnology2{
+    margin: 1em auto;
+    max-width: 90%;
+    height: 25em;
+    padding: 1em;
+}
+
+.divisionTechnology2 h2{
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.divisionTechnology2 p{
+    width: 100%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;  
+} 
+ 
+
+/* ----------------technology2 Section Five------------------------------- */
+
+.technology2SectionFive{
+    height: 180em;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;    height: 70rem;    height: 70em;    height: 70rem;    display: flex;
+    flex-direction: column;
+    grid-area: tech25;
+
+}
+
+.container2Technology3{
+    margin: 1em auto;
+    padding: 1em;
+    width: 90%;
+    height: 120em;
+    color: white;
+}
+
+.technologyValidators h2{
+    width: 80%;
+    margin-top: 1em;
+    font-size: 1.9em;
+}
+
+.technologyValidators h3{
+    width: 85%;
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+
+.technologyValidators p{
+    margin-top: 1em;
+    font-size: 1.1em;
+    width: 85%;
+    line-height: 1.5em;
+}
+
+.requirements{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.requirements ul{
+    margin-left: -2em;
+    width: 90%;
+
+}
+.requirements li{
+    margin-top: 2em;
+    list-style: inside;
+    font-size: 1.1em;
+}
+
+
+.technology2Picture3{
+    width: 90%;
+    height: 20em;
+    display: flex;
+    margin: -10em auto;
+}
+
+.tech2Picture3{
+    display: block;
+    margin: 4em auto;
+    border: solid black 3px;
+    width: 95%;
+    height: 60%;
+}
+
+
+
+/* ----------------technology3 Section one------------------------------- */
+
+
+.fathertech3{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "tech31"
+    "tech32"
+    "tech33"
+    "footer"
+}
+
+
+.blockchainIcon3{
+    margin-left: 0.25em;
+    margin-bottom: 0.5em;
+    width: 3em;
+    height: 3em;
+}
+
+.technology33SectionOne{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;    height: 70rem;    height: 70em;    height: 70rem;    display: flex;    width: 100%;
+    height: 20em;
+    grid-area: tech31;
+    display: flex;
+}
+
+.tech3Intro{
+    width: 90%;
+    margin: 1em auto;
+    height: 23em;
+    padding: 1em;
+
+
+}
+
+
+.tech3Intro h2{
+    width: 100%;
+    font-size: 2.2em;
+    color: white;
+}
+
+.tech3Intro p{
+    width: 100%;
+    margin-top: 1em;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: -.17px;
+    color: white;
+
+}
+ 
+
+/* ----------------technology3 Section 2------------------------------- */
+
+
+ .technology3SectionTwo{
+    background-color:white;
+    height: 188em;
+    width: 100%;
+    grid-area: tech32;
+}
+
+.technology3SectionTwo h3{
+    margin-left: 1em;
+    text-align: left;
+    font-size: 2.1em;
+
+}
+
+.containerTechnology3{
+    display: flex;
+    flex-direction: column;
+    height: 220em;
+}
+
+.divisionTechnology3{
+    margin: 1em auto;
+    max-width: 90%;
+    height: 40em;
+    padding: 1em;
+}
+
+.divisionTechnology3 h2{
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.divisionTechnology3 p{
+    width: 100%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;  
+} 
+
+.technology3Picture1{
+    background-color: white;
+    width: 90%;
+    display: flex;
+    margin: -50em auto;
+}
+.tech3Picture1{
+    display: block;
+    margin: auto;
+    border: solid white 2px;
+    width: 95%;
+    height: 65%;
+} 
+
+
+
+
+
+
+
+/* ----------------technology3 Section 3------------------------------- */
+
+ .technology3SectionThree{
+    background: rgb(243,240,245);
+    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%;    width: 100%;
+    height: 90rem;
+    grid-area: tech33;
+
+}
+
+.aurSupply{
+    width: 100%;
+    margin: 3em auto;
+    padding: 1.5rem;
+
+}
+
+.aurSupply h2{
+    font-size: 1.3em;
+
+}
+
+.aurSupply p{
+    margin-top: 1.2rem;
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+}
+
+.aurBuy{
+    width: 100%;
+    padding: 1.5rem;
+
+
+}
+
+.aurBuy h2{
+    margin-top: 1.2rem;
+    font-size: 2rem;
+
+}
+
+.aurBuy p{
+    margin-top: 1.2rem;
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+} 
+
+/* ----------------technology4 Section one------------------------------- */
+.fathertech4{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "tech41"
+    "tech42"
+    "footer"
+}
+
+
+
+ .technology4SectionOne{
+    height: 130em;
+    background-color: white;
+    grid-area: tech41;
+
+}
+
+.containerTechnology4{
+    /* background-color: rgb(107, 190, 190); */
+    height: 110em;
+
+}
+
+.soul{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 50em;
+    width: 90%;
+
+}
+
+.soul h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.soul p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;    
+
+}
+
+.soulIs{
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 55em;
+    width: 90%;
+}
+
+.soulIs ul{
+    width: 90%;
+    margin-left: -1.3em;
+    padding-inline-start: 30px;
+    font-size: 1.15rem;
+}
+
+.soulIs ul li{
+    display: list-item;
+    margin-top: 1em;
+
+}
+
+.tech4Picture1{
+    display: block;
+    margin: auto;
+    border: solid black 3px;
+    width: 95%;
+    height: 65%;
+}
+
+.technology4Picture1{
+    background-color: white;
+    height: 20em;
+}
+
+
+/* .technology3Picture1{
+    background-color: red;
+    width: 90%;
+    height: 20em;
+    display: flex;
+    margin: 1em auto;
+}
+.tech3Picture1{
+    display: block;
+    margin: 4em auto;
+    border: solid black 3px;
+    width: 80%;
+    height: 50%;
+}  */
+
+/* ----------------technology4 Section two------------------------------- */
+
+.technology4SectionTwo{
+    grid-area: tech42;
+}
+
+
+.column11{
+    display: none;
+}
+
+.column22{
+    background-color: white;
+    height: 1100em;
+}
+
+.whySoul{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 80em;
+    width: 90%;
+
+}
+
+.whySoul h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.whySoul p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;   
+
+}
+
+.concesusProtocol{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 550em;
+    width: 90%;
+
+}
+
+.concesusProtocol h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.concesusProtocol p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;   
+
+}
+
+/* -----no me toma la lista para modificarla---------- */
+
+.concesus1 ul{
+    background-color: red;
+    width: 90%;
+    margin-left: -1.3em;
+    padding-inline-start: 30px;
+    font-size: 1.15rem;
+}
+
+.concesus1 ul li{
+    display: list-item;
+    margin-top: 1em;
+
+}
+
+/* ----------------technology4 Section three------------------------------- */
+
+
+.soulConcensus{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 160em;
+    width: 90%;
+}
+
+.soulConcensus h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.soulConcensus p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px; 
+
+}
+
+
+/* ----------------technology4 Section four------------------------------- */
+
+.soulWork{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 300em;
+    width: 90%;
+
+}
+
+.soulWork h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.soulWork p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px; 
+
+}
+
+/*
+.containerTechnology4{
+    width: 50%;
+    background-color: rgb(81, 182, 22);
+}
+
+.soul ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.technology4Picture1{
+    width: 50%;
+    background-color: green;
+}
+
+.tech4Picture1{
+    width: 35rem;
+    height: 35rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.soul h2{
+    margin-left: 7rem;
+    margin-top: 5rem;
+    font-size: 40px;
+}
+
+.soul h3{
+    margin-left: 7rem;
+    margin-top: 1.8rem;
+    font-size: 26px;
+}
+
+.soul p{
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    margin-left: 7rem;
+    width: 35rem;
+}
+
+.soulIs ul{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    width: 30rem;
+    line-height: 2rem;
+    list-style-position: inside;
+
+}
+
+.soulIs ul li{
+    margin-top: 0.25rem;
+    font-size: 1.15rem;
+} */
+/* ------------------technology4SectionTwo--------------------- */
+
+
+/* .technology4SectionTwo{
+    display: flex;
+    flex-direction: row;
+}
+
+.column11{
+    background-color: rgb(52, 141, 201);
+    width: 25%;
+}
+
+.column11 nav{
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    width: 85%;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+
+
+.column22{
+    background-color: rgb(36, 84, 241);
+    width: 75%;
+}
+
+.whySoul{
+    background-color: aqua;
+    height: 25rem;
+    width: 80%;
+    margin: 5rem;
+
+}
+
+.whySoul h2{
+    font-size: 40px;
+
+}
+
+.whySoul p{
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+
+}
+
+.concesusProtocol{
+    background-color: rgb(44, 117, 117);
+    height: 150rem;
+    width: 80%;
+    margin: 5rem;
+
+}
+
+.concesusProtocol h2{
+    font-size: 40px;
+
+}
+
+.concesusProtocol h3{
+    font-size: 26px;
+    margin-top: 1rem;
+
+}
+
+
+
+.concesusProtocol p{
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+
+}
+
+.soulConcensus{
+    background-color: rgb(37, 160, 113);
+    height: 25rem;
+    width: 80%;
+    margin: 5rem;
+
+}
+
+.soulConcensus h2{
+    font-size: 40px;
+
+}
+
+.soulConcensus p{
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+}
+
+.soulWork{
+    background-color: rgb(134, 206, 40);
+    height: 75rem;
+    width: 80%;
+    margin: 5rem;
+
+}
+
+.soulWork h2{
+    font-size: 40px;
+
+}
+
+.soulWork p{
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+} */
+
+
+@media (min-width:500px) {
+    .videoIndex2{
+        width: 28em;
+        height: 20em;
+    }
+
+    .containerIndexFiveBackers h2{
+        font-size: 3.5em;
+
+    }
+}
+
+@media (min-width:620px) {
+
+/* ------------------IndexSection1--------------------- */
+
+    .indexSectionOne{
+        background-color: #5B4B8A; 
+        height: 25rem;
+        width: 100%;
+    }
+
+/* ------------------IndexSection3--------------------- */
+
+    .containerIndexThree{
+        margin-left: 3em;
+
+    }
+
+/* ------------------IndexSection5--------------------- */
+
+    .containerIndexFiveBackers h2{
+        font-size: 4em;
+    }
+
+    .backers{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 4.5em;
+        grid-row-gap: 2em;
+        margin-top: 1em;
+        align-items: center;
+    }
+    
+    .backers li{
+        margin: auto;
+        list-style: none;
+        background-color: white;
+        width: 7em;
+        height: 5em;
+    }
+    
+    .backers li img{
+        max-width: 12.5em;
+        max-height: 4.37em;
+        width: 100%;
+        height: 100%;
+    }
+
+    .indexSectionFiveSupporters h2{
+        font-size: 4em;
+    }
+
+
+    .supporters{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 4.5em;
+        grid-row-gap: 2em;
+        margin-top: 1em;
+        align-items: center;
+    }
+    
+    .supporters li{
+        margin: auto;
+        list-style: none;
+        width: 7em;
+        height: 5em;
+    }
+    
+    .supporters li img{
+        max-width: 12.5em;
+        max-height: 4.37em;
+        width: 100%;
+        height: 100%;
+    }
+
+/* ------------------technology3--------------------- */
+
+.blockchainIcon3{
+    margin-left: 0.25em;
+    margin-bottom: 0.5em;
+    width: 3em;
+    height: 3em;
+}
+
+.technology33SectionOne{
+    background: rgb(243,240,245);
+    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);
+    height: 12em;
+    grid-area: tech31;
+    display: flex;
+}
+
+.tech3Intro{
+    width: 90%;
+    margin: 1em auto;
+    height: 23em;
+    padding: 1em;
+}
+
+.tech3Intro h2{
+    width: 100%;
+    font-size: 2.2em;
+    color: black;
+}
+
+.tech3Intro p{
+    width: 100%;
+    margin-top: 1em;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: -.17px;
+    color: black;
+
+}
+ 
+
+/* ----------------technology3 Section 2------------------------------- */
+
+
+ .technology3SectionTwo{
+    background: rgb(243,240,245);
+    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);
+    width: 100%;
+    grid-area: tech32;
+}
+
+.containerTechnology3{
+    height: auto;
+}
+
+.technology3SectionTwo h3{
+    margin-left: 1em;
+    text-align: left;
+    font-size: 2.1em;
+
+}
+
+.containerTechnology3{
+    display: flex;
+    flex-direction: column;
+    height: 220em;
+}
+
+.divisionTechnology3{
+    margin: 1em auto;
+    max-width: 90%;
+    height: auto;
+    padding: 1em;
+}
+
+.divisionTechnology3 h2{
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.divisionTechnology3 p{
+    max-width: 80%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;  
+} 
+
+.technology3Picture1{
+    overflow: hidden;
+    background-color: rgb(161, 51, 51);
+    width: 90%;
+    height: 30em;
+    margin: -125em auto;
+}
+.tech3Picture1{
+    display: block;
+    margin: 1em auto;
+    border: solid white 2px;
+    width: 95%;
+} 
+
+
+
+
+
+
+
+/* ----------------technology3 Section 3------------------------------- */
+
+ .technology3SectionThree{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);
+    height: 60rem;
+    grid-area: tech33;
+
+}
+
+.aurSupply{
+    width: 100%;
+    margin: 3em auto;
+    padding: 2.5rem;
+
+}
+
+.aurSupply h2{
+    font-size: 2rem;
+    color: white;
+
+}
+
+.aurSupply p{
+    margin-top: 1.2rem;
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+    width: 90%;
+    color: white;
+
+}
+
+.aurBuy{
+    margin-top: -4em;
+    padding: 2.5rem;
+    width: 100%;
+
+}
+
+.aurBuy h2{
+    font-size: 2rem;
+    color: white;
+
+}
+
+.aurBuy p{
+    margin-top: 1.2rem;
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+    width: 90%;
+    color: white;
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width:700px) {
+
+
+
+    .indexSectionOne{
+        background-color: #5B4B8A; 
+        height: 25em;
+        width: 100%;
+        grid-area: index1;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .containerIndexOne h1{
+        width: 90%;
+        line-height: 3em;
+        margin-left: 0.5em;
+        font-size: 3.3em;
+    }
+
+    .containerIndexOne h2{
+        margin-left: 1em;
+        font-size: 1.7em;
+        width: 80%;
+
+    }
+
+    .containerIndexOne p{
+        width: 90%;
+        margin-left: 1.5em;
+        margin-top: 2em;
+        line-height: 1.1em;
+        font-size: 1.2em;
+
+    }
+
+    .DiscoverAuraButton{
+        margin-top: -2em;
+        width: 8em;
+        border: 2.5px solid;
+        border-radius: 10px;
+        border-color: black;
+        color: black;
+        font-size: 1em;
+        margin-left: 1.5em;
+        padding: 0.2em;
+        background-color: white;
+        text-decoration: none;
+    }
+
+
+/* ------------------IndexSection2--------------------- */
+
+.videoIndex2{
+    width: 40em;
+    height: 20em;
+    margin-top: 2em;
+}
+
+}
+
+
+@media (min-width:900px) {
+
+ /* -----------------header---------------- */
+ header{
+    height: 10rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.logo{
+    width: 7rem;
+    height: 7rem;
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+
+
+#navbar{
+    background-color: white;
+}
+
+.container-fluid{
+    background-color: white;
+    width: 65em;
+}
+
+#navbarNavDropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.navbar-nav li{
+    margin: 0.5em;
+}
+
+#navbarDropdownMenuLink{
+    color: rgb(110, 12, 221);
+}
+
+
+/* ---------------------index1-------------------- */
+
+.indexSectionOne{
+    background-color: #5B4B8A; 
+    height: 45rem;
+    width: 100%;
+}
+
+.containerIndexOne h1{
+    width: 90%;
+    margin-left: 2.5rem;
+    font-size: 5.5rem;
+}
+
+.containerIndexOne h2{
+    margin-top: -1em;
+    margin-left: 0.7em;
+    font-size: 3.5rem;
+
+}
+
+.containerIndexOne p{
+    width: 70%;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    line-height: 2.6rem;
+    font-size: 1.8rem;
+
+}
+
+
+.DiscoverAuraButton{
+    width: 8em;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: black;
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    padding: 0.3rem;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+.DiscoverAuraButton:hover{
+    color: #5B4B8A;
+} 
+
+
+/* ---------------------index2-------------------- */
+ .indexSectionTwo{
+    background-color: rgb(255, 255, 255);
+        height: 60rem;
+        width: 100%;
+    }
+
+    .containerIndexTwo h2{
+        color: #7858A6;
+        display: inline;
+        margin-top: 1em;
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .containerIndexTwo h3{
+        width: 90%;
+        font-size: 2.4em;
+        margin-top: 1rem;
+        text-align: center;
+
+    }
+
+    .containerIndexTwo p{
+        font-size: 1.4em;
+        margin-top: 1em;
+        width: 70%;
+        text-align: center;
+    }
+
+    .videoIndex2{
+        width: 70em;
+        height: 35em;
+    } 
+
+
+/* ---------------------index3-------------------- */
+
+.indexSectionThree{
+    background-color: white;
+    height: 20em;
+
+}
+
+.containerIndexThree{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1em auto;
+    gap: 3em;
+}
+
+.divisionIndexThree{
+    width: 20em;
+    height: 25em;
+    background-color: rgb(255, 255, 255);
+    margin-left: -1.5em ;
+
+}
+
+.divisionIndexThree h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.divisionIndexThree p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5em;
+    width: 90%;
+}
+
+.blockchainIcon{
+    margin-left: 1.5em;
+    width: 3.5em;
+    height: 3.5em;
+}
+ 
+
+
+/* ---------------------index4-------------------- */
+
+ 
+ .indexSectionFour{
+    height: 40em;
+    background-color: #7858A6;
+ }
+
+
+.introIndexFour{
+    background-color: #5e1abe;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.introIndexFour h2{
+    color: white;
+    margin-top: 2em;
+    font-size: 3rem;
+    margin-left: 1rem;
+    border-bottom: none;
+}
+
+.introIndexFour p{
+    color: white;
+    font-size: 1.8em;
+    width: 100%;
+    margin-left: 1rem;
+
+}
+.intro1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20em;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+
+.buttonBuildNow{
+    width: 12em;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: black;
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    margin-top: 4em;
+    padding: 0.2rem;
+    background-color: white;
+    text-decoration: none;
+}
+
+.buttonBuildNow:hover{
+    color: #5B4B8A;
+}
+
+
+
+.divisionsIndexFour{
+    background-color: #5e1abe;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+
+
+.divisionIndexFour1 , .divisionIndexFour2, .divisionIndexFour3{
+    background-color: #5e1abe;
+    display: flex;
+    flex-direction: column;
+    width: 23em;
+    height: 24em;
+    margin: 2em;
+    padding: 0.5em;
+}
+
+.divisionIndexFour1 h2, .divisionIndexFour2 h2,.divisionIndexFour3 h2{
+    color: white;
+    font-size: 1.7em;
+    width: 85%;
+}
+
+.divisionIndexFour1 p, .divisionIndexFour2 p,.divisionIndexFour3 p{
+    color: white;
+    width: 100%;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-top: 1.5em;
+}
+
+.buttonArrow{
+    margin-top: 3em;
+    font-weight: bold;
+}
+
+.buttonArrow1{
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+} 
+
+/* ---------------------index5-------------------- */
+
+
+.containerIndexFive{
+    width: 100%;
+    height: 120em;
+    grid-area: index5;
+    background-color: white;
+}
+
+.indexSectionFiveBackers{
+    height: 85em;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+
+
+.containerIndexFiveBackers{
+    background-color: white;
+    width: 95%;
+    height: 85em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerIndexFiveBackers h2{
+    margin-top: -2em;
+    font-size: 5.5em;
+
+}
+
+.backers{
+    background-color: white;
+    width: 70%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 6em;
+    grid-row-gap: 3em;
+    margin-top: 2em;
+    margin-left: -2rem;
+    justify-content: center;
+}
+
+
+.backers li{
+    margin: auto;
+    list-style: none;
+    background-color: white;
+    width: 12em;
+    height: 7em;
+}
+
+.backers li img{
+    max-width: 12.5em;
+    max-height: 5.37em;
+    width: 100%;
+    height: 100%;
+
+}
+
+.indexSectionFiveSupporters{
+    height: 45em;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+.containerIndexFiveSupporters{
+    background-color: white;
+    width: 95%;
+    height: 45em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerIndexFiveSupporters h2{
+    margin-top: -2em;
+    font-size: 5.5em;
+
+}
+
+.supporters{
+    background-color: white;
+    width: 70%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 6em;
+    grid-row-gap: 3em;
+    margin-top: 2em;
+    margin-left: -2rem;
+    justify-content: center;
+
+}
+
+.supporters li{
+    margin: auto;
+    list-style: none;
+    background-color: white;
+    width: 12em;
+    height: 7em;
+}
+
+.supporters li img{
+    max-width: 12.5em;
+    max-height: 5.37em;
+    width: 100%;
+    height: 100%;
+}
+ 
+
+
+/* ---------------------index6-------------------- */
+
+.indexSectionSix{
+    height: 50rem;
+    background-color: #4C3575;
+    display: flex;
+    flex-direction: column;
+}
+
+ .containerIndexSix{
+    background-color: #4C3575;;
+    height: 25em;
+}
+
+.containerIndexSix h2{
+    color: #7858A6;
+    margin-left: 1rem;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+.containerIndexSix h3{
+    margin-left: 1rem;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.containerIndexSix p{
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    margin-top: 1em;
+    width: 70%;
+    text-align: center;
+}
+
+
+
+.socialNetworks{ 
+    background-color:#4C3575;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socialContainer{
+    margin: -0.5em auto;
+}
+
+.socials{
+    background-color:#4C3575;
+    margin-top: 3rem;
+    width: 13rem;
+    height: 12rem;
+    text-align: center;
+    box-shadow: 0 18px 36px -18px rgb(0 0 0 / 30%), 0 30px 60px -12px rgb(50 50 93 / 25%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
+    transition: 0.8s;
+}
+
+.socials:hover{
+    transform: translateY(-25px);
+    cursor: pointer;
+    
+}
+
+.socials h3{
+    margin-top: 1.9rem;
+    text-align: center;
+    align-items: center;
+    line-height: 0rem;
+    font-size: 1.2em;
+
+}
+
+.socials p{
+    color: white;
+    display: contents;
+    font-size: 1.2em;
+}
+
+.socialIntro{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: #4C3575;
+    height: 4em;
+
+}
+ 
+
+
+/* ---------------------footer-------------------- */
+
+
+
+ footer{
+    height: 30em;
+}
+
+.containerFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.footerLists{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 0em;
+
+}
+
+.footerLists li{
+    width: 15em;
+    text-align: left;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    list-style: none;
+
+}
+
+.footerLists li a{
+    text-decoration: none;
+}
+
+.listOneFooter{
+    margin-left: 2em;
+}
+
+.listTwoFooter{
+    margin-left: -10em;
+}
+
+.listThreeFooter{
+    margin-left: -5em;
+}
+
+.listFourFooter{
+    margin-left: -7em;
+}
+
+.footerIcons{
+    margin-top: 2.5em;
+    width: 30%;
+    height: 3em;
+    margin-left: 15em;
+}
+
+.socialListIcons{
+    width: 90%;
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.socialListIcons li{
+    text-decoration: none;
+}
+
+.socialListIcons .footerIcon{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.socialListIcons li span{
+    display: none;
+}
+
+.socialListIcons .footerIcon:hover{
+    background-color: white;
+}
+
+ .footerEnd{
+    margin-top: 3.5rem;
+    margin-left: 4.5rem;
+    height: 3.5rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.iconFooter{
+    width: 3.5rem;
+}
+.footerEnd p{
+    color: white;
+    line-height: 3.5rem;
+    margin-left: 0.5rem;
+}
+
+
+
+.socialListIcons li a{
+    list-style: none;
+} 
+
+
+/* -------------technology1------------------- */
+
+
+.technology1SectionOne{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.introToAura{   
+    height: 35em;
+    padding: 3em 0.5em 0 5em;
+    width: 45%;
+}
+
+.introToAura h2{
+    font-size: 3em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.introToAura p{
+    font-size: 1.1em;
+    margin-left: 1.5em;
+    color: white;
+}
+
+
+.technology1Picture1{
+    width: 55%;
+    height: 35em;
+
+
+}
+
+.techPicture1{
+    display: block;
+    border: solid black 3px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.technology1SectionTwo{
+    background: rgb(243,240,245);
+    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.column1{
+    display: block;
+    width: 25%;
+    margin: 1em;
+}
+
+.column2{
+    width: 75%;
+    height: 300em;
+    margin: 1em;
+
+}
+
+
+#list-example{
+position: sticky;
+top: 70px;
+z-index: 1;
+}
+
+#list-example a{
+    margin: 0.20em auto;
+    width: 80%;
+    transition: 0.8s;
+}
+
+.list-group a:hover{
+    background-color: #c77dff;
+    color: white;
+}
+
+.whyAura{
+    height: 5em;
+}
+
+.auraWorks{
+    height: 170em;
+}
+
+.auraGoing{
+    height: 36em;
+}
+
+.tech1Picture2{
+    display: block;
+    margin: 4em 1em;
+    border: solid black 3px;
+    width: 70%;
+    height: 40%;
+}
+
+.tech1Picture3{
+    display: block;
+    margin: 4em 1em;
+    border: solid black 3px;
+    width: 70%;
+    height: 40%;
+}
+
+.tech1Picture4{
+    display: block;
+    margin: 4em 1em;
+    border: solid black 3px;
+    width: 70%;
+    height: 40%;
+}
+
+/* -------------technology2 section1------------------- */
+
+.technology2SectionOne{
+    height: 40em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.stakeAura{
+    display: flex;
+    flex-direction: column;
+    background-color: #88ff7d;
+    height: 40em;
+    width: 45%;
+    padding: 3em 0.5em 0 5em;
+}
+
+.technology2Picture1{
+    background-color: #fff67d;
+    width: 55%;
+    height: 40em;
+
+}
+
+.tech2Picture1{
+    display: block;
+    border: solid black 3px;
+    width: 90%;
+    height: 75%;
+}
+
+.stakeYourAurButton{
+    width: 8em;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    color: black;
+    font-size: 1.1rem;
+    margin-left: -0.2em;
+    margin-top: -2em;
+    padding: 0.5rem;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+.stakeYourAurButton:hover{
+    color: #5B4B8A;
+} 
+
+
+
+
+/* -------------technology2 section2------------------- */
+
+.technology2SectionTwo{
+    background-color:white;
+    height: 24em;
+
+}
+ 
+.containerTechnology2{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1em auto;
+    gap: 3em;
+} 
+
+.divisionTechnology{
+    width: 20em;
+    height: 20em;
+    background-color:white;
+    margin-top: 3em;
+    margin-left: -1.5em ;
+
+}
+
+.divisionTechnology h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 1em;
+
+}
+
+.divisionTechnology p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5em;
+    width: 90%;
+}
+
+.blockchainIcon{
+    margin-left: 1.5em;
+    width: 3.5em;
+    height: 3.5em;
+}
+ 
+
+
+
+
+
+/* -------------technology2 section3------------------- */
+
+.technology2SectionThree{
+    height: 40em;
+    background-color: rgb(67, 233, 25);
+    display: flex;
+    flex-direction: row;
+}
+
+.fluidRewards{
+    background-color: #ca37be;
+    height: 40em;
+    width: 45%;
+    padding: 3em 0.5em 0 5em;
+}
+
+.technology2Picture2{
+    background-color: #806254;
+    height: 40em;
+    width: 55%;
+
+}
+
+.tech2Picture2{
+    display: block;
+    margin: 4em auto;
+    border: solid black 3px;
+    width: 90%;
+    height: 75%;
+}
+
+.earnRewardsButton{
+    width: 8em;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: black;
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 1.2em;
+    margin-top: -2em;
+    padding: 0.5rem;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+.earnRewardsButton:hover{
+    color: #5B4B8A;
+} 
+
+
+
+/* -------------technology2 section4------------------- */
+
+
+
+.technology2SectionFour{
+    background-color:rgb(126, 31, 31);
+    height: 24em;
+
+}
+
+.container2Technology2{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1em auto;
+    gap: 3em;
+}
+
+.divisionTechnology2{
+    width: 20em;
+    height: 18em;
+    background-color:white;
+    margin-top: 3em;
+    margin-left: 1.5em ;
+
+}
+
+.divisionTechnology2 h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 1em;
+
+}
+
+.divisionTechnology2 p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5em;
+    width: 90%;
+}
+
+.blockchainIcon{
+    margin-left: 1.5em;
+    width: 3.5em;
+    height: 3.5em;
+}
+ 
+
+
+
+
+/* -------------technology2 section5------------------- */
+
+
+.technology2SectionFive{
+    width: 100%;
+    height: 50em;
+    background-color: rgb(231, 192, 16);
+    display: flex;
+    flex-direction: row;
+}
+
+.container2Technology3{
+    background-color: #68a127;
+    width: 45%;
+    padding: 3em 0.5em 0 5em;
+    height: 45em;
+}
+
+.technologyValidators h2{
+    margin-left: 1em;
+}
+
+.technologyValidators h3{
+    margin-left: 1.3em;
+}
+
+.requirements{
+    background-color: #c77dff;
+}
+
+.tech2Picture3{
+    display: block;
+    margin: 4em auto;
+    border: solid black 3px;
+    width: 90%;
+    height: 75%;
+}
+
+.technology2Picture3{
+    background-color: #c77dff;
+    width: 55%;
+    height: 45em;
+
+}
+
+
+/* ----------------technology3 Section one------------------------------- */
+
+
+.fathertech3{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "tech31"
+    "tech32"
+    "tech33"
+    "footer"
+}
+
+
+.technology33SectionOne{
+    background-color: #e0aaff;
+    padding: 1em;
+    grid-area: tech31;
+}
+
+.tech3Intro{
+    background-color: #e0aaff;
+    width: 90%;
+    margin: auto;
+    margin: 1em auto;
+    height: 17em;
+    width: 90%;
+
+}
+
+.tech3Intro h2{
+    margin-top: 1.2em;
+    width: 100%;
+    font-size: 4.2em;
+    margin-bottom: 0.6em;
+}
+
+.tech3Intro p{
+    width: 75%;
+    font-size: 25px;
+    line-height: 1.67;
+    letter-spacing: -.17px;
+}
+ 
+
+/* ----------------technology3 Section 2------------------------------- */
+
+
+ .technology3SectionTwo{
+    background-color: #5a189a;
+    height: 160em;
+    width: 100%;
+    grid-area: tech32;
+}
+
+.technology3SectionTwo h3{
+    text-align: center;
+    font-size: 2.8em;
+
+}
+
+.containerTechnology3{
+    background-color: #5a189a;    
+    display: flex;
+    flex-direction: column;
+    height: 125em;
+}
+
+/* ---------no modifica el height------- */
+
+.divisionTechnology3{
+    background-color: azure;
+    margin: 1em auto;
+    max-width: 60%;
+    height: 30em;
+    padding: 1em;
+}
+
+.blockchainIcon3{
+    margin-left: 0.25em;
+    margin-bottom: 0.5em;
+    width: 5em;
+    height: 5em;
+}
+
+
+.divisionTechnology3 h2{
+    width: 80%;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+
+.divisionTechnology3 p{
+    width: 100%;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;  
+} 
+
+.technology3Picture1{
+    background-color: #5a189a;    
+    width: 100%;
+}
+.tech3Picture1{
+    display: block;
+    margin: 4em auto;
+    border: solid white 3px;
+    width: 50%;
+    height: 30%;
+} 
+
+/* ----------------technology3 Section 3------------------------------- */
+
+ .technology3SectionThree{
+    background-color: white;
+    width: 100%;
+    height: 65rem;
+    grid-area: tech33;
+
+}
+
+.aurSupply{
+    background-color: #e0aaff;
+    width: 90%;
+    margin: auto;
+    height: 30em;
+
+}
+
+.aurSupply h2{
+    /* margin-top: 1.2em;
+    width: 100%;
+    font-size: 4.2em;
+    margin-bottom: 0.6em; */
+    width: 80%;
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.aurSupply p{
+    width: 100%;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;  
+}
+
+.aurBuy{
+    background-color: #e0aaff;
+    width: 90%;
+    margin: 1em auto;
+    height: 25em;
+
+}
+
+.aurBuy h2{
+    width: 80%;
+    font-size: 2.8em;
+    font-weight: bold;
+
+}
+
+.aurBuy p{
+    width: 100%;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;  
+} 
+
+
+
+
+/* ----------------technology4 Section one------------------------------- */
+.fathertech4{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "tech41"
+    "tech42"
+    "footer"
+}
+
+.tech4Picture1{
+    width: 5em;
+    height: 5em;
+}
+
+
+ .technology4SectionOne{
+    height: 60em;
+    background-color: #e0aaff;
+    grid-area: tech41;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.containerTechnology4{
+    background-color: #f7ffaad2;
+    height: 58em;
+    padding: 3em 0.5em 0 5em;
+    width: 45%;
+}
+
+.technology4Picture1{
+    background-color: #e0aaff;
+    width: 55%;
+    height: 58em;
+    padding: 5em 2em;
+
+}
+
+
+
+.tech4Picture1{
+    display: block;
+    border: solid black 3px;
+    width: 100%;
+    height: 100%;
+} 
+
+
+
+.soul{
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #21a33d;
+    padding: 1em;
+    margin: 1em auto;
+    height: 25em;
+    width: 90%;
+
+}
+
+.soul h2{
+    
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.soul p{
+    width: 100%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;    
+
+}
+
+.soulIs{
+    background-color: #7b449b;
+    padding: 1em;
+    height: 25em;
+    width: 90%;
+}
+
+.soulIs p{
+    font-weight: 700;
+}
+
+.soulIs ul{
+    width: 100%;
+    margin-left: -1.3em;
+    padding-inline-start: 30px;
+    font-size: 1.15rem;
+}
+
+.soulIs ul li{
+    display: list-item;
+    margin-top: 1em;
+
+}
+
+/* ----------------technology4 Section two------------------------------- */
+
+.technology4SectionTwo{
+    grid-area: tech42;
+    height: 530em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.column11{
+    background-color: rgb(92, 12, 12);
+    display: block;
+    width: 65%;
+
+}
+
+.column22{
+    background-color: rgb(43, 165, 32);
+    height: 530em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.whySoul{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 45em;
+    width: 90%;
+
+}
+
+.whySoul h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.whySoul p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;   
+
+}
+
+.concesusProtocol{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 270em;
+    width: 90%;
+
+}
+
+.concesusProtocol h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.concesusProtocol p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px;   
+
+}
+
+/* -----no me toma la lista para modificarla---------- */
+
+.concesus1 ul{
+    background-color: red;
+    width: 90%;
+    margin-left: -1.3em;
+    padding-inline-start: 30px;
+    font-size: 1.15rem;
+}
+
+.concesus1 ul li{
+    display: list-item;
+    margin-top: 1em;
+
+}
+
+/* ----------------technology4 Section three------------------------------- */
+
+
+.soulConcensus{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 55em;
+    width: 90%;
+}
+
+.soulConcensus h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.soulConcensus p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px; 
+
+}
+
+
+/* ----------------technology4 Section four------------------------------- */
+
+.soulWork{
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aaff;
+    padding: 1em;
+    margin: 1em auto;
+    height: 150em;
+    width: 90%;
+
+}
+
+.soulWork h2{
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+.soulWork p{
+    width: 85%;
+    line-height: 1.95rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    letter-spacing: -.17px; 
+
+}
+
+}
+ 
+
+
+

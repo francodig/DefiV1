@@ -24,6 +24,12 @@
 .navbar{
     background-color: #FFF9D7;
     width: 100%;
+    text-align: left;
+}
+
+/* .navbar{
+    background-color: #FFF9D7;
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding: 1ems;
@@ -42,7 +48,7 @@
     font-size: 1.2em;
     font-weight: 500;
 
-}
+}  */
 
 
 /* ---------------------index1-------------------- */
@@ -1296,7 +1302,7 @@ z-index: 1;
 
 /* -------------header------------------- */
     
-    .navbar-nav{
+    /* .navbar-nav{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1314,7 +1320,7 @@ z-index: 1;
     align-self: center;
     margin-left: 90%;
 
-} 
+}  */
 
 /* -------------technology2 section1------------------- */
 
@@ -1654,11 +1660,11 @@ z-index: 1;
 /* -------------header------------------- */
     
 
-.navbar-toggler{
+/* .navbar-toggler{
 align-self: center;
 margin-left: 80%;
 
-} 
+}  */
 
 } 
 
@@ -2135,11 +2141,11 @@ margin-left: 80%;
 
 /* -------------header------------------- */
             
-.navbar-toggler{
+/* .navbar-toggler{
     align-self: center;
     margin-left: 70%;
         
-} 
+}  */
         
 .logo{
     width: 6em;
@@ -2255,10 +2261,10 @@ margin-left: 80%;
 
 /* -------------header------------------- */
                 
-.navbar-toggler{
+/* .navbar-toggler{
     align-self: center;
     margin-left: 60%;         
-}            
+}             */
 
 .logo{
     width: 5em;

@@ -7,7 +7,6 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../Custom/desktopStyle.css">  
-    <!-- <link rel="stylesheet" href="./Custom/style.css">     -->
 </head>
 <body>
     <div class="fathertech4">
@@ -32,146 +31,148 @@
             </nav>
         </header>  
         <main>
-            <section class="technology4SectionOne">
-                <div class="containerTechnology4">
-                    <div class="soul">
-                        <h2>What is Soul?</h2>
-                        <p>Soul is Aura’s aBFT consensus algorithm. Simply put, a consensus mechanism is the engine that powers the blockchain.
-                            Compared to Classical and Nakamoto consensus, Soul is a faster, more scalable, and more secure choice.
-                            Developers can use Soul to build peer-to-peer applications without having to create their own networking layer.</p>
+            <div class="containerTech4">
+                <section class="technology4SectionOne">
+                    <div class="containerTechnology4">
+                        <div class="soul">
+                            <h2>What is Soul?</h2>
+                            <p>Soul is Aura’s aBFT consensus algorithm. Simply put, a consensus mechanism is the engine that powers the blockchain.
+                                Compared to Classical and Nakamoto consensus, Soul is a faster, more scalable, and more secure choice.
+                                Developers can use Soul to build peer-to-peer applications without having to create their own networking layer.</p>
+                        </div>
+                        <div class="soulIs">
+                            <p>Soul is:</p>
+                            <ul>
+                                <li>Asynchronous: Participants have the freedom to process commands at different times.</li>
+                                <li>Leaderless: No participant plays a “special” role.</li>
+                                <li>Byzantine Fault-Tolerant: Supports one-third of faulty nodes, including malicious behavior.</li>
+                                <li>Final: Soul’s output can be used immediately. There is no need to wait for block confirmations; transactions are confirmed in 1-2 seconds.</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="soulIs">
-                        <p>Soul is:</p>
-                        <ul>
-                            <li>Asynchronous: Participants have the freedom to process commands at different times.</li>
-                            <li>Leaderless: No participant plays a “special” role.</li>
-                            <li>Byzantine Fault-Tolerant: Supports one-third of faulty nodes, including malicious behavior.</li>
-                            <li>Final: Soul’s output can be used immediately. There is no need to wait for block confirmations; transactions are confirmed in 1-2 seconds.</li>
-                        </ul>
+                    <div class="technology4Picture1">
+                        <img class="tech4Picture1" src="../Assets/pictures/foto2.jpg" alt="">
+                    </div> 
+                </section>
+                <section class="technology4SectionTwo">
+                    <div class="column11">
+                        <div id="list-example" class="list-group">
+                            <a class="list-group-item list-group-item-action" href="#list-item-1">Why Soul?</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-2">What is a consensus protocol?</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-3">Soul consensus</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-4">How does Soul work?</a>
+                        </div>
                     </div>
-                </div>
-                <div class="technology4Picture1">
-                    <img class="tech4Picture1" src="../Assets/pictures/foto2.jpg" alt="">
-                </div> 
-            </section>
-            <section class="technology4SectionTwo">
-                <div class="column11">
-                    <div id="list-example" class="list-group">
-                        <a class="list-group-item list-group-item-action" href="#list-item-1">Why Soul?</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-2">What is a consensus protocol?</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-3">Soul consensus</a>
-                        <a class="list-group-item list-group-item-action" href="#list-item-4">How does Soul work?</a>
-                    </div>
-                </div>
-                <div class="column22">
-                    <div class="container2Technology4">
-                        <section class="whySoul">
-                            <div>
-                            <h2 id="list-item-1">Why Soul?</h2>
-                            <p>We created Soul to overcome the limitations of previous consensus algorithms. It is, in fact, the ideal option for applications that need high-throughput, fast finality, and bank-grade security.
-                                In today’s fast-paced world, anything that requires a wait or delay of any sort would simply not be used.</p>
-                            <p>Soul removes the barrier for creating fast, decentralized applications that anyone can use.
-                                Whether you’re building an improved version of existing products
-                                for sectors such as payments, supply chain tracking, healthcare data storage and more, or revolutionizing an up-and-coming industry like DeFi, Soul can do it all.
-                                </p>
-                            </div>
-                        </section>
-                        <section class="concesusProtocol">
-                            <div>
-                                <h2 id="list-item-2">What is a consensus algorithm?</h2>
-                                <p>The consensus mechanism is the core of distributed technologies. In a decentralized environment, where no central entity validates transactions, the consensus protocol ensures that all the participants of the network achieve an agreement: the network as a whole validates transactions in a fully trustless way.</p>
-                            </div>
-                            <div>
-                                <h3>Classical consensus</h3>
-                                <p>Classical consensus protocols were created long before blockchain; they’ve been used since the 1980s in distributed databases.</p>
-                                <h3>Byzantine Fault Tolerance (BFT)</h3>
-                                <p>Byzantine Fault Tolerance is the ability of a distributed network to achieve consensus, therefore to continue to operate, despite incorrect information or malicious participants within the network.
-                                    Before Bitcoin, the only way to maintain Byzantine Fault Tolerance in a distributed network was to limit the number of nodes.</p>
-                            </div>
-                            <div>
-                                <h3>Practical Byzantine Fault Tolerance (pBFT)</h3>
-                                <p>Practical Byzantine Fault Tolerance is a model to reach consensus by enabling many computers to behave as one, a technique known as state machine replication.</p>
-                                <p>The nodes reach consensus about a decision—such as the validity of a block in the case of a blockchain—by passing messages amongst each other about the decision. In this system, security increases with the number of honest nodes. The honest nodes agree on the correct decision and reject the incorrect decision proposed by malicious nodes, as long as the number of malicious nodes is less than one-third of the total.</p>
-                                <p>pBFT systems are energy efficient; they do not need high computational resources or a lot of energy to operate. Furthermore, pBFT can reach consensus at a fast pace because all the nodes are in constant communication with each other, and there’s no need for multiple confirmations. Transactions are finalized as soon as the nodes agree on the decision.</p>
-                                <p>The consensus achievement can be simplified in four steps:</p>
-                                <ol class="concesus1">
-                                    <li>pBFT uses a voting mechanism to elect a leader node in a round-robin format.
-                                    </li>
-                                    <li>The leader initiates the decision and broadcasts it to the secondary nodes.</li>
-                                    <li>All the nodes, both the leader and the secondary nodes, send a response.</li>
-                                    <li>The response is considered valid when ⅔ + 1 nodes send the same response.</li>
-                                </ol>
-                                <p>If the leader acts maliciously, it can be removed by the majority of the nodes.
-                                </p>
-                                <p>However, constant communication is also pBFT’s Achilles heel: it only properly works in networks with a limited amount of nodes. The communication overhead increases exponentially with every new node that joins the network, and so does the time necessary to respond.</p>
-                                <p>pBFT networks are also vulnerable to Sybil attacks, where one entity assumes multiple identities. The networks become more resilient to such attacks with a high number of nodes; however, with a higher number of nodes, the performance decreases, as seen above.
-                                </p>
-                            </div>
-                            <div>
-                                <h3>Nakamoto consensus</h3>
-                                <p>Satoshi Nakamoto designed a consensus mechanism that    would solve the scalability issues of Classical consensus.
-                                    Nakamoto consensus is a BFT model created to operate in peer-to-peer networks with thousands of nodes, favoring decentralization and security. The model eradicates the communication overhead by introducing Proof-of-Work.</p>
-                                <p>Despite the improvements, this model introduces other issues.</p>
-                                <ul>
-                                    <li>Proof-of-Work requires all the nodes to solve complex mathematical problems, which consume an enormous amount of energy.</li>
-                                    <li>It has a very high time to finality and a low throughput. In the case of Bitcoin, a new block is produced every 10 minutes by design. It’s safe to wait 3-6 block confirmations—around 30 to 60 minutes—before considering a transaction finalized. In Classical consensus systems, a transaction is considered final within seconds.</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3>Asynchronous Byzantine Fault Tolerance (aBFT)</h3>
-                                <p>Asynchronous Byzantine Fault Tolerance is the highest standard of consensus algorithms. It solves the blockchain Scalability Trilemma, according to which only two of the following three components are possible at the same time:</p>
-                                <ul>
-                                    <li>Decentralization</li>
-                                    <li>Security</li>
-                                    <li>Scalability</li>
-                                </ul>
-                                <p>An aBFT consensus protocol allows for maximum decentralization, high scalability, and bank-grade security.</p>
-                                <p>In an aBFT network, nodes can reach consensus independently conveys this information, and they don’t need to exchange finalized blocks.
-                                    For this reason, aBFT consensus mechanisms are completely leaderless, increasing security: there is no round-robin and no Proof-of-Work.
+                    <div class="column22">
+                        <div class="container2Technology4">
+                            <section class="whySoul">
+                                <div>
+                                <h2 id="list-item-1">Why Soul?</h2>
+                                <p>We created Soul to overcome the limitations of previous consensus algorithms. It is, in fact, the ideal option for applications that need high-throughput, fast finality, and bank-grade security.
+                                    In today’s fast-paced world, anything that requires a wait or delay of any sort would simply not be used.</p>
+                                <p>Soul removes the barrier for creating fast, decentralized applications that anyone can use.
+                                    Whether you’re building an improved version of existing products
+                                    for sectors such as payments, supply chain tracking, healthcare data storage and more, or revolutionizing an up-and-coming industry like DeFi, Soul can do it all.
                                     </p>
-                                <p>Unlike pBFT, which relies on the fact that all the messages shared among nodes will eventually be delivered, aBFT allows for messages to be delayed or lost altogether. Besides making networks particularly resilient to DDoS attacks, aBFT also lowers the transaction’s latency, resulting in a faster network.
-                                </p>
-                                <p>Finally, aBFT networks allow for greater scalability and decentralization since there isn’t excessive communication to limit the number of participating nodes.</p>
-                            </div>
-                        </section>
-                        <section class="soulConcensus">
-                            <div>
-                                <h2 id="list-item-3">Soul consensus</h2>
-                                <p>Soul is a DAG-based aBFT consensus algorithm that offers tangible improvements over both Classical and Nakamoto models.
-                                    Soul is asynchronous, leaderless, and final while also being Byzantine Fault Tolerant.</p>
-                                <p>Soul is designed to plug into applications written in any programming language easily. Developers can focus on building the application logic and integrate Soul to handle the state machine replication aspect.</p>
-                                <p>Soul connects to other Soul nodes and guarantees that everyone processes the same commands in the same order. To do this, it uses peer-to-peer networking and a DAG aBFT consensus algorithm.</p>
-                            </div>
-                        </section>
-                        <section class="soulWork">
-                            <div>
-                                <h2 id="list-item-4">How does Soul work?</h2>
-                                <p>Each Soul node stores a local acyclic directed graph (DAG) composed of event blocks, each of which contains transactions. The DAG, capturing the happens-before relationship between the events, is used to calculate an exact final order of events—and hence transactions—independently on each node.</p>
-                                <p>Event blocks are divided into confirmed and unconfirmed event blocks. New event blocks are unconfirmed, while event blocks from the past 2-3+ frames are all confirmed, and subsequently ordered by honest nodes.</p>
-                                <p>Consensus results in batches of confirmed event blocks, where each batch of events is called a block. Finalized blocks forming the final chain are calculated from event blocks independently on each node.</p>
-                                <p>Unlike Proof-of-Work, round-robin Proof-of-Stake, coinage Proof-of-Stake, and sync BFT, Soul nodes don’t; send blocks to each other. Only the events are being synced between nodes. Validators don’t vote on a concrete state of the network; instead, they periodically exchange observed transactions and events with peers.</p>
-                                <p>Unlike Classical consensus, such as pBFT, Soul doesn’t use new events in the current election; instead, new events are used to vote for the events in 2-3+ previous virtual elections simultaneously. This leads to a smaller number of created consensus messages, as the same event is reused in different elections.
-                                    Hence, Soul achieves a lower time to finality and a smaller communication overhead compared to synchronous BFT.</p>
-                            </div>
-                            <div>
-                                <h3>What are epochs in Soul?</h3>
-                                <p>Soul’s event structure is a DAG of events. To optimize storage and retrieval, the DAG is separated into sub-DAGs, each of them is called an epoch. Each epoch comprises many finalized blocks.</p>
-                                <p>Each epoch is sealed when one of these conditions is satisfied:</p>
-                                <ul>
-                                    <li>The epoch reaches a defined number of blocks</li>
-                                    <li>The epoch lasts for a specified time</li>
-                                    <li>At least one cheater is confirmed in this block</li>
-                                    <li>Epoch sealing is requested by the NodeDriver contract</li>
-                                </ul>
-                                <p>When an epoch gets sealed, its inner epoch indexes get pruned, and new events of the sealed epochs are ignored. Each epoch forms a separate DAG, and thus parents from other epochs are not allowed.
-                                </p>
-                                <p>For a sanity check, each event includes the hash of the previous epoch.</p>
-                                <p>For a more technical and in-depth view of Soul, you can check our Wiki on GitHub.</p>
-                            </div>
-                        </section>
-                    </div>    
-                </div>
-            </section>
+                                </div>
+                            </section>
+                            <section class="concesusProtocol">
+                                <div>
+                                    <h2 id="list-item-2">What is a consensus algorithm?</h2>
+                                    <p>The consensus mechanism is the core of distributed technologies. In a decentralized environment, where no central entity validates transactions, the consensus protocol ensures that all the participants of the network achieve an agreement: the network as a whole validates transactions in a fully trustless way.</p>
+                                </div>
+                                <div>
+                                    <h3>Classical consensus</h3>
+                                    <p>Classical consensus protocols were created long before blockchain; they’ve been used since the 1980s in distributed databases.</p>
+                                    <h3>Byzantine Fault Tolerance (BFT)</h3>
+                                    <p>Byzantine Fault Tolerance is the ability of a distributed network to achieve consensus, therefore to continue to operate, despite incorrect information or malicious participants within the network.
+                                        Before Bitcoin, the only way to maintain Byzantine Fault Tolerance in a distributed network was to limit the number of nodes.</p>
+                                </div>
+                                <div>
+                                    <h3>Practical Byzantine Fault Tolerance (pBFT)</h3>
+                                    <p>Practical Byzantine Fault Tolerance is a model to reach consensus by enabling many computers to behave as one, a technique known as state machine replication.</p>
+                                    <p>The nodes reach consensus about a decision—such as the validity of a block in the case of a blockchain—by passing messages amongst each other about the decision. In this system, security increases with the number of honest nodes. The honest nodes agree on the correct decision and reject the incorrect decision proposed by malicious nodes, as long as the number of malicious nodes is less than one-third of the total.</p>
+                                    <p>pBFT systems are energy efficient; they do not need high computational resources or a lot of energy to operate. Furthermore, pBFT can reach consensus at a fast pace because all the nodes are in constant communication with each other, and there’s no need for multiple confirmations. Transactions are finalized as soon as the nodes agree on the decision.</p>
+                                    <p>The consensus achievement can be simplified in four steps:</p>
+                                    <ol class="concesus1">
+                                        <li>pBFT uses a voting mechanism to elect a leader node in a round-robin format.
+                                        </li>
+                                        <li>The leader initiates the decision and broadcasts it to the secondary nodes.</li>
+                                        <li>All the nodes, both the leader and the secondary nodes, send a response.</li>
+                                        <li>The response is considered valid when ⅔ + 1 nodes send the same response.</li>
+                                    </ol>
+                                    <p>If the leader acts maliciously, it can be removed by the majority of the nodes.
+                                    </p>
+                                    <p>However, constant communication is also pBFT’s Achilles heel: it only properly works in networks with a limited amount of nodes. The communication overhead increases exponentially with every new node that joins the network, and so does the time necessary to respond.</p>
+                                    <p>pBFT networks are also vulnerable to Sybil attacks, where one entity assumes multiple identities. The networks become more resilient to such attacks with a high number of nodes; however, with a higher number of nodes, the performance decreases, as seen above.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h3>Nakamoto consensus</h3>
+                                    <p>Satoshi Nakamoto designed a consensus mechanism that    would solve the scalability issues of Classical consensus.
+                                        Nakamoto consensus is a BFT model created to operate in peer-to-peer networks with thousands of nodes, favoring decentralization and security. The model eradicates the communication overhead by introducing Proof-of-Work.</p>
+                                    <p>Despite the improvements, this model introduces other issues.</p>
+                                    <ul>
+                                        <li>Proof-of-Work requires all the nodes to solve complex mathematical problems, which consume an enormous amount of energy.</li>
+                                        <li>It has a very high time to finality and a low throughput. In the case of Bitcoin, a new block is produced every 10 minutes by design. It’s safe to wait 3-6 block confirmations—around 30 to 60 minutes—before considering a transaction finalized. In Classical consensus systems, a transaction is considered final within seconds.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3>Asynchronous Byzantine Fault Tolerance (aBFT)</h3>
+                                    <p>Asynchronous Byzantine Fault Tolerance is the highest standard of consensus algorithms. It solves the blockchain Scalability Trilemma, according to which only two of the following three components are possible at the same time:</p>
+                                    <ul>
+                                        <li>Decentralization</li>
+                                        <li>Security</li>
+                                        <li>Scalability</li>
+                                    </ul>
+                                    <p>An aBFT consensus protocol allows for maximum decentralization, high scalability, and bank-grade security.</p>
+                                    <p>In an aBFT network, nodes can reach consensus independently conveys this information, and they don’t need to exchange finalized blocks.
+                                        For this reason, aBFT consensus mechanisms are completely leaderless, increasing security: there is no round-robin and no Proof-of-Work.
+                                        </p>
+                                    <p>Unlike pBFT, which relies on the fact that all the messages shared among nodes will eventually be delivered, aBFT allows for messages to be delayed or lost altogether. Besides making networks particularly resilient to DDoS attacks, aBFT also lowers the transaction’s latency, resulting in a faster network.
+                                    </p>
+                                    <p>Finally, aBFT networks allow for greater scalability and decentralization since there isn’t excessive communication to limit the number of participating nodes.</p>
+                                </div>
+                            </section>
+                            <section class="soulConcensus">
+                                <div>
+                                    <h2 id="list-item-3">Soul consensus</h2>
+                                    <p>Soul is a DAG-based aBFT consensus algorithm that offers tangible improvements over both Classical and Nakamoto models.
+                                        Soul is asynchronous, leaderless, and final while also being Byzantine Fault Tolerant.</p>
+                                    <p>Soul is designed to plug into applications written in any programming language easily. Developers can focus on building the application logic and integrate Soul to handle the state machine replication aspect.</p>
+                                    <p>Soul connects to other Soul nodes and guarantees that everyone processes the same commands in the same order. To do this, it uses peer-to-peer networking and a DAG aBFT consensus algorithm.</p>
+                                </div>
+                            </section>
+                            <section class="soulWork">
+                                <div>
+                                    <h2 id="list-item-4">How does Soul work?</h2>
+                                    <p>Each Soul node stores a local acyclic directed graph (DAG) composed of event blocks, each of which contains transactions. The DAG, capturing the happens-before relationship between the events, is used to calculate an exact final order of events—and hence transactions—independently on each node.</p>
+                                    <p>Event blocks are divided into confirmed and unconfirmed event blocks. New event blocks are unconfirmed, while event blocks from the past 2-3+ frames are all confirmed, and subsequently ordered by honest nodes.</p>
+                                    <p>Consensus results in batches of confirmed event blocks, where each batch of events is called a block. Finalized blocks forming the final chain are calculated from event blocks independently on each node.</p>
+                                    <p>Unlike Proof-of-Work, round-robin Proof-of-Stake, coinage Proof-of-Stake, and sync BFT, Soul nodes don’t; send blocks to each other. Only the events are being synced between nodes. Validators don’t vote on a concrete state of the network; instead, they periodically exchange observed transactions and events with peers.</p>
+                                    <p>Unlike Classical consensus, such as pBFT, Soul doesn’t use new events in the current election; instead, new events are used to vote for the events in 2-3+ previous virtual elections simultaneously. This leads to a smaller number of created consensus messages, as the same event is reused in different elections.
+                                        Hence, Soul achieves a lower time to finality and a smaller communication overhead compared to synchronous BFT.</p>
+                                </div>
+                                <div>
+                                    <h3>What are epochs in Soul?</h3>
+                                    <p>Soul’s event structure is a DAG of events. To optimize storage and retrieval, the DAG is separated into sub-DAGs, each of them is called an epoch. Each epoch comprises many finalized blocks.</p>
+                                    <p>Each epoch is sealed when one of these conditions is satisfied:</p>
+                                    <ul>
+                                        <li>The epoch reaches a defined number of blocks</li>
+                                        <li>The epoch lasts for a specified time</li>
+                                        <li>At least one cheater is confirmed in this block</li>
+                                        <li>Epoch sealing is requested by the NodeDriver contract</li>
+                                    </ul>
+                                    <p>When an epoch gets sealed, its inner epoch indexes get pruned, and new events of the sealed epochs are ignored. Each epoch forms a separate DAG, and thus parents from other epochs are not allowed.
+                                    </p>
+                                    <p>For a sanity check, each event includes the hash of the previous epoch.</p>
+                                    <p>For a more technical and in-depth view of Soul, you can check our Wiki on GitHub.</p>
+                                </div>
+                            </section>
+                        </div>    
+                    </div>
+                </section>
+            </div>
         </main>
         <footer>
             <div class="containerFooter">
@@ -216,16 +217,16 @@
                                 <ul class="technologyList">
                                     <p>Technology</p>
                                     <li>
-                                        <a href="">Intro to Aura</a>
+                                        <a href="./Sections/technology1.html">Intro to Aura</a>
                                     </li>
                                     <li>
-                                        <a href="">Stake on Aura</a>
+                                        <a href="./Sections/technology2.html">Stake on Aura</a>
                                     </li>
                                     <li>
-                                        <a href="">Aura token</a>
+                                        <a href="./Sections/technology3.html">Aura token</a>
                                     </li>
                                     <li>
-                                        <a href="">The concensus</a>
+                                        <a href="./Sections/technology4.html">The concensus</a>
                                     </li>
                                 </ul>
                             </div>
@@ -233,16 +234,16 @@
                                 <ul class="communityList">
                                     <p>Community</p>
                                     <li>
-                                        <a href="">Twitter</a>
+                                        <a href="https://twitter.com/">Twitter</a>
                                     </li>
                                     <li>
-                                        <a href="">Discord</a>
+                                        <a href="https://discord.com/">Discord</a>
                                     </li>
                                     <li>
-                                        <a href="">Telegram</a>
+                                        <a href="https://web.telegram.org/">Telegram</a>
                                     </li>
                                     <li>
-                                        <a href="">Github</a>
+                                        <a href="https://github.com/">Github</a>
                                     </li>
                                 </ul>
                             </div>
@@ -251,40 +252,42 @@
                     <div class="footerIcons">
                         <ul class="socialListIcons">
                             <li>
-                                <a href="" target="_blank">
-                                    <img class="footerIcon" src="../Assets/icons/discord-footer icon.png" alt="discord icon">
+                                <a href="https://discord.com/" target="_blank">
+                                    <i class="fa-brands fa-discord"></i>
                                     <span>Discord</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="" target="_blank">
-                                    <img class="footerIcon" src="../Assets/icons/twitter-footer icon.png" alt="twitter icon">
+                                <a href="https://twitter.com/" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
                                     <span>Twitter</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="" target="_blank">
-                                    <img class="footerIcon" src="../Assets/icons/telegram-footer icon.png" alt="telegram icon">
+                                <a href="https://web.telegram.org/" target="_blank">
+                                    <i class="fa-brands fa-telegram"></i>
                                     <span>Telegram</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="" target="_blank">
-                                    <img class="footerIcon" src="../Assets/icons/github-footer icon.png" alt="github icon">
+                                <a href="https://github.com/" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
                                     <span>Github</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="" target="_blank">
-                                    <img class="footerIcon" src="../Assets/icons/medium-footer icon.png" alt="medium icon">
+                                <a href="https://medium.com/" target="_blank">
+                                    <i class="fa-brands fa-medium"></i>  
                                     <span>Medium</span>
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div> 
                 </div>
                 <div class="footerEnd">
-                    <img class="iconFooter" src="../Assets/icons/Logo.jpg" alt="Aura Logo">   
+                    <a href="../index.html">
+                    <img class="iconFooter" src="../Assets/icons/Logo.jpg" alt="Aura Logo">  
+                    </a> 
                     <p>© 2022 Aura Network. All Rights Reserved.</p>
                 </div>
             </div> 

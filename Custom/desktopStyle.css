@@ -21,11 +21,19 @@
 
 }
 
+/* .collapse{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+
 .navbar{
     background-color: #FFF9D7;
     width: 100%;
     text-align: left;
 }
+
 
 /* .navbar{
     background-color: #FFF9D7;
@@ -53,8 +61,18 @@
 
 /* ---------------------index1-------------------- */
 
+.background{
+    /* background-image: url(../Assets/pictures/background.jpg); */
+    background: rgb(170, 75, 107);  
+    background: -webkit-linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg); 
+    background: linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
 .indexSectionOne{
-    background-color: #810955; 
+    /* background-color: #810955;  */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -93,33 +111,35 @@
     width: 7em;
     border: 3px solid;
     border-radius: 20px;
-    border-color: black;
-    color: black;
+    border-color: white;
+    color: white;
     font-size: 1.5rem;
     margin: 1.2em 0em 2.5em 2.5em;
     padding: 0.3rem;
-    background-color: white;
     text-decoration: none;
     text-align: center;
+    transition: 0.8s;
 
 }
 
 .DiscoverAuraButton:hover{
-    color: #5B4B8A;
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.6em;
 }   
 
 
 /* ---------------------index2-------------------- */
  .indexSectionTwo{
-    background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%);
+    /* background: rgb(216,156,219);
+    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
     width: 100%;
     display: flex;
     
     }
 
     .containerIndexTwo h2{
-        color: #7433ce;
+        color: white;
         margin-top: 2em;
         font-size: 1.4em;
         text-align: center;
@@ -157,8 +177,8 @@
 /* ---------------------index3-------------------- */
 
 .indexSectionThree{
-    background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%);
+    /* background: rgb(216,156,219);
+    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
     display: flex;
 
 }
@@ -175,6 +195,15 @@
 .divisionIndexThree{
     width: 20em;
     padding: 1em;
+    border-radius: 15px;
+    
+}
+
+.divisionIndexThree:hover{
+    background: #355C7D;  
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
+    
 
 }
 
@@ -204,14 +233,14 @@
 /* ---------------------index4-------------------- */
   
 .indexSectionFour{
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
  }
  
 
 .introIndexFour{
     width: 100%;
-    background-color: #610C63;
+    /* background-color: #610C63; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -238,34 +267,37 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 
 .buttonBuildNow{
     width: 6em;
     border: 3px solid;
-    border-radius: 20px;
-    border-color: black;
-    color: black;
-    font-size: 1.5rem;
+    border-radius: 16px;
+    border-color: white;
+    color: white;
+    font-size: 1rem;
     margin-left: 2.5rem;
-    margin-top: 4em;
+    margin-top: 6em;
     padding: 0.2rem;
-    background-color: white;
     text-decoration: none;
     text-align: center;
+    transition: 0.8s;
 }
 
 .buttonBuildNow:hover{
-    color: #5B4B8A;
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.1rem;
+
 }
 
 
 
 .divisionsIndexFour{
     width: 100%;
-    background-color: #610C63;
+    /* background-color: #610C63; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -275,12 +307,14 @@
 
 
 .divisionIndexFour1 , .divisionIndexFour2, .divisionIndexFour3{
-    background-color: #7e738d;
     display: flex;
     flex-direction: column;
     width: 30%;
     margin: 2em;
     padding: 0.5em;
+    -webkit-box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
 }
 
 .divisionIndexFour1 h2, .divisionIndexFour2 h2,.divisionIndexFour3 h2{
@@ -307,10 +341,15 @@
     font-weight: bold;
 }
 
-.arrow{
-    width: 30px;
-    height: 30px;
+.fa-solid{
+    font-size: 1.5em;
+    color: white;
+    transition: 0.5s;
 } 
+
+.fa-solid:hover{
+    color: rgb(133, 116, 145);
+}
 
 /* ---------------------index5-------------------- */
 
@@ -318,7 +357,7 @@
 .containerIndexFive{
     width: 100%;
     grid-area: index5;
-    background-color: #FFF9D7;
+    background-color: white;
 }
 
 .containerIndexFiveBackers{
@@ -357,8 +396,13 @@
     max-height: 5.37em;
     width: 100%;
     height: 100%;
+    transition: 0.6s;
 
 } 
+
+.backers li img:hover{
+    opacity: 0.5;
+}
 
 .containerIndexFiveSupporters{
     width: 95%;
@@ -397,8 +441,13 @@
     max-height: 5.37em;
     width: 100%;
     height: 100%;
+    transition: 0.6s;
+
 }
  
+.supporters li img:hover{
+    opacity: 0.5;
+}
 
 
 /* ---------------------index6-------------------- */
@@ -411,11 +460,11 @@
 }
 
  .containerIndexSix{
-    background-color: #610C63;
+    /* background-color: #610C63; */
 }
 
 .containerIndexSix h2{
-    color: #7433ce;
+    color: white;
     margin-left: 1rem;
     margin-top: 2em;
     font-size: 1.4em;
@@ -446,7 +495,7 @@
 
 
 .socialNetworks{ 
-    background-color: #610C63;
+    /* background-color: #610C63; */
     padding: 1em;
     width: 100%;
     display: flex;
@@ -461,13 +510,13 @@
 
 
 .socials{
-    background-color: #610C63;
+    /* background-color: #610C63; */
     padding: 0.25em;
     margin-top: 3rem;
     margin-bottom: 5em;
     width: 18%;
     text-align: center;
-    box-shadow: 0 18px 36px -18px rgb(0 0 0 / 30%), 0 30px 60px -12px rgb(50 50 93 / 25%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
+    box-shadow: 0 18px 36px -18px rgba(199, 194, 194, 0.3), 0 30px 60px -12px rgb(50 50 93 / 25%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
     transition: 0.8s;
 }
 
@@ -493,23 +542,23 @@
     font-size: 1.2em;
 }
 
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
 .socialIntro{
     margin-top: 2em;
     margin-bottom: 0.5em;
     display: flex;
     flex-direction: row;
-    background-color: #610C63;
+    /* background-color: #610C63; */
 
 }
-
-.socialIntro1{
-    margin-top: 2em;
-    margin-bottom: 0.5em;
-    display: flex;
-    flex-direction: row;
-    background-color: #610C63;
-
-} 
+.socialIntro .socialIcon{
+    margin-left: 22%;
+    
+}
 
 
 /* ---------------------footer-------------------- */
@@ -518,8 +567,7 @@
 
 
 .containerFooter{
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(215,179,217,1) 29%, rgba(224,172,227,1) 70%, rgba(0,0,0,1) 100%, rgba(17,16,17,1) 100%);
+    background-color: #FFF9D7;
     display: flex;
     flex-direction: column;
 }
@@ -539,6 +587,11 @@
 
 }
 
+.footerLists p{
+    font-weight: 650;
+}
+
+
 .listfoot{
     width: 85%;
     display: flex;
@@ -549,13 +602,14 @@
 .footerLists li{
     text-align: left;
     margin-top: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1em;
     list-style: none;
 
 }
 
 .footerLists li a{
     text-decoration: none;
+    color: black;
 }
 
 
@@ -571,27 +625,50 @@
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    gap: 3em;
+    gap: 0.5em;
 
 
 }
 
-.socialListIcons li{
+
+.socialListIcons li a{
     text-decoration: none;
+    color: black;
 }
 
-.socialListIcons .footerIcon{
-    width: 1.5em;
-    height: 1.5em;
+/* --------- */
+
+.socialListIcons li a span{
+    opacity: 0;
+    transition: 0.5s ease-in;
+
 }
 
-.socialListIcons li span{
-    display: none;
+.socialListIcons li:hover a span{
+    opacity: 2;
 }
 
-.socialListIcons .footerIcon:hover{
-    background-color: white;
+.fa-brands{
+    color: rgb(31, 31, 31);
+    font-size: 4em;
+    transition: 0.8s;
+
+} 
+
+.fa-brands{
+    color: rgb(31, 31, 31);
+    font-size: 1.6em;
+    transition: 0.8s;
+
+} 
+
+.fa-brands:hover{
+    color: beige;
 }
+
+
+/* --------- */
+
 
  .footerEnd{
     margin-top: 2.5em;
@@ -602,18 +679,24 @@
     flex-direction: row;
 }
 
-.iconFooter{
+.footerEnd a{
     width: 10%;
     height: 10%;
 
 }
+
+.iconFooter{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
 .footerEnd p{
     align-self: center;
-    color: white;
-    font-size: 1.1em;
+    color: black;
+    font-size: 1em;
     margin-left: 0.5rem;
 }
-
 
 
 .socialListIcons li a{
@@ -622,10 +705,22 @@
 
 /* -------------technology1------------------- */
 
+.containerTech1{
+    background-image: url(../Assets/pictures/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* background: rgb(170, 75, 107);  
+background: -webkit-linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg); 
+background: linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg);
+background-repeat: no-repeat;
+background-size: cover; */
+
 
 .technology1SectionOne{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);  */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -634,6 +729,7 @@
 .introToAura{   
     padding: 3em 0.5em 0 5em;
     width: 45%;
+    margin-bottom: 10em;
 }
 
 .technology1Picture1{
@@ -659,15 +755,15 @@
 
 .techPicture1{
     display: block;
-    border: solid black 3px;
+    border: solid rgb(71, 68, 68) 2px;
     width: 80%;
     height: 80%;
 }
 
 
 .technology1SectionTwo{
-    background: rgb(243,240,245);
-    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%;
+    /* background: rgb(243,240,245);
+    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%; */
     display: flex;
     flex-direction: row;
 }
@@ -681,6 +777,9 @@
 .column2{
     width: 75%;
     margin: 1em;
+    color: white;
+    padding-right: 1.5em ;
+
 
 }
 
@@ -698,7 +797,7 @@ z-index: 1;
 }
 
 .list-group a:hover{
-    background-color: #c77dff;
+    background-color: #7953e2;
     color: white;
 }
 
@@ -706,23 +805,38 @@ z-index: 1;
 .tech1Picture2{
     display: block;
     margin: 4em 1em;
-    border: solid black 3px;
+    border: solid rgb(71, 68, 68) 2px;
     width: 70%;
 }
 
 .tech1Picture3{
     display: block;
     margin: 4em 1em;
-    border: solid black 3px;
+    border: solid rgb(71, 68, 68) 2px;
     width: 70%;
 }
 
 .tech1Picture4{
     display: block;
     margin: 4em 1em;
-    border: solid black 3px;
+    border: solid rgb(71, 68, 68) 2px;
     width: 70%;
 }
+
+.whyAura, .auraWorks, .auraGoing h2{
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.whyAura, .auraWorks, .auraGoing p{
+    margin-top: 1.7em;
+    line-height: 1.7em;
+    font-size: 1.1em;
+    margin-left: 1em;
+    color: white;
+}
+
 
 /* --------------TechnologyTwo---------------- */
 
@@ -731,7 +845,7 @@ z-index: 1;
 
 .technology2SectionOne{
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);   
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -742,7 +856,7 @@ z-index: 1;
     display: flex;
     flex-direction: column;
     width: 45%;
-    padding: 3em 0.5em 0 5em;
+    padding: 3em 0.5em 5em 5em;
     color: white;
     gap: 1.5em;
 }
@@ -768,22 +882,28 @@ z-index: 1;
     font-size: 1.8em;
 }
 
+
 .stakeYourAurButton{
     width: 8em;
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 15px;
-    border-color: black;
-    color: black;
-    font-size: 1.1rem;
-    padding: 0.5rem;
-    background-color: white;
+    border-color: white;
+    color: white;
+    font-size: 1.3rem;
+    margin: 0.5em 0em 2.5em 0 -0em;
+    padding: 0.3rem;
     text-decoration: none;
+    text-align: center;
+    transition: 0.8s;
 
 }
 
 .stakeYourAurButton:hover{
-    color: #5B4B8A;
-} 
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.4em;
+}   
+
 
 
 
@@ -809,6 +929,16 @@ z-index: 1;
 .divisionTechnology{
     width: 20em;
     padding: 1em;
+    border-radius: 15px;
+
+}
+
+
+.divisionTechnology:hover{
+    background: #355C7D;  
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
+
 
 }
 
@@ -872,21 +1002,24 @@ z-index: 1;
 
 .earnRewardsButton{
     width: 8em;
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 15px;
-    border-color: black;
-    color: black;
-    font-size: 1.1rem;
-    padding: 0.5rem;
-    background-color: white;
+    border-color: white;
+    color: white;
+    font-size: 1.3rem;
+    margin: 0.5em 0em 2.5em 0 -0em;
+    padding: 0.3rem;
     text-decoration: none;
     text-align: center;
+    transition: 0.8s;
 
 }
 
 .earnRewardsButton:hover{
-    color: #5B4B8A;
-} 
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.4em;
+}   
 
 
 
@@ -911,6 +1044,15 @@ z-index: 1;
 .divisionTechnology2{
     width: 20em;
     padding: 1em;
+    border-radius: 15px;
+
+}
+
+.divisionTechnology2:hover{
+    background: #355C7D;  
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
+
 
 }
 
@@ -1007,10 +1149,15 @@ z-index: 1;
     "footer"
 }
 
+.containerTech3{
+    background-image: url(../Assets/pictures/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 
 .technology33SectionOne{
-    background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%);
+    /* background: rgb(216,156,219);
+    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
     padding: 1em;
     grid-area: tech31;
 }
@@ -1018,6 +1165,8 @@ z-index: 1;
 .tech3Intro{
     width: 90%;
     margin: 1em auto;
+    color: white;
+
 
 }
 
@@ -1039,8 +1188,8 @@ z-index: 1;
 /* ----------------technology3 Section 2------------------------------- */
 
 .technology3SectionTwo{
-    background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%);
+    /* background: rgb(216,156,219);
+    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
     width: 100%;
     grid-area: tech33;
     height: auto;
@@ -1054,6 +1203,8 @@ z-index: 1;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    color: white;
+
 
 }
 
@@ -1061,13 +1212,24 @@ z-index: 1;
     margin: 0.5em auto;
     width: 85%;
     padding: 1em;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    transition: 0.6s; 
 
+}
+
+.divisionTechnology3:hover{
+    background-color: rgb(106, 10, 231);
+    opacity: 1;
 }
 
 .technology3SectionTwo h3{
     margin-bottom: 1.5em;
     text-align: center;
     font-size: 3.2em;
+    color: white;
 }
 
 
@@ -1099,17 +1261,13 @@ z-index: 1;
     width: 100%;
 } 
 
-
-
-
-
 /* ----------------technology3 Section 3------------------------------- */
 
 .technology3SectionThree{
     width: 100%;
+    
 }
 .aurSupply{
-    background-color: #610C63;
     width: 100%;
     padding: 2em 2em 2em 4em;
 
@@ -1127,11 +1285,9 @@ z-index: 1;
     font-size: 1.2rem;
     margin-top: 1.5rem;
     color: white;
-
 }
 
 .aurBuy{
-    background-color: #610C63;
     width: 100%;
     padding: 2em 2em 2em 4em;
 
@@ -1165,13 +1321,20 @@ z-index: 1;
     "footer"
 }
 
+.containerTech4{
+    background-image: url(../Assets/pictures/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .technology4SectionOne{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);  
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);   */
     display: flex;
     flex-direction: row;
     width: 100%;
     height: auto;
+    margin-bottom: 10em;
 
 }
 
@@ -1186,13 +1349,13 @@ z-index: 1;
 
 .technology4Picture1{
     width: 55%;
-    padding: 3em 0em 0em 4.5em;
+    padding: 7em 0em 0em 4.5em;
 
 }
 
 .tech4Picture1{
     display: block;
-    border: solid black 3px;
+    border: solid rgb(71, 68, 68) 2px;
     width: 90%;
     height: 80%;
 }
@@ -1240,8 +1403,8 @@ z-index: 1;
 /* ----------------technology4 Section two------------------------------- */
 
 .technology4SectionTwo{
-    background: rgb(243,240,245);
-    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%;
+    /* background: rgb(243,240,245);
+    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%; */
     grid-area: tech42;
     display: flex;
     flex-direction: row;
@@ -1256,6 +1419,7 @@ z-index: 1;
 
 .column22{
     width: 75%;
+    color: white;
 }
 
 
@@ -1321,6 +1485,15 @@ z-index: 1;
     margin-left: 90%;
 
 }  */
+
+
+
+/* -------------Index sectionFive------------------- */
+
+.socialIntro .socialIcon{
+    margin-left: 7%;
+    
+}
 
 /* -------------technology2 section1------------------- */
 
@@ -1400,7 +1573,7 @@ z-index: 1;
 }
 
 .technologyValidators{  
-    padding: 1em 0em 0 em 2em;
+    padding: 1em 0em 0em 2em;
     width: 100%;
 }
 
@@ -1448,32 +1621,40 @@ z-index: 1;
     }
     
     .socialListIcons{
+        width: 65%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         list-style: none;
-        gap: 2.3em;
+        gap: 1.3em;
+        padding-right: 5em;
     
     }
-
-
     
-    .socialListIcons .footerIcon:hover{
-        background-color: white;
-    }
     
      .footerEnd{
         margin-left: 3.2em;
 
     }
     
-    .iconFooter{
-        width: 13%;
-        height: 13%;
-    
-    }
 
+.socialListIcons span{
+    display: none;
+}  
+ 
+.footerEnd a{
+    width: 3.5em;
+    height: 3.5em;
+
+}
+
+.iconFooter{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
 } 
 
 
@@ -1521,12 +1702,10 @@ z-index: 1;
 .introToAura{   
     padding: 3em 0.5em 0 5em;
     width: 100%;
+    margin-bottom: 0.5em;
+
 }
 
-.technology1Picture1{
-    width: 100%;
-    padding: 3em 0em 0em 4.5em;
-}
 
 .introToAura h2{
     font-size: 2em;
@@ -1543,7 +1722,10 @@ z-index: 1;
     color: white;
 }
 
-
+.technology1Picture1{
+    width: 100%;
+    padding: 3em 0em 0em 4.5em;
+}
 
 .techPicture1{
     margin-left: 1.2em;
@@ -1563,6 +1745,19 @@ z-index: 1;
     width: 100%;
 }
 
+.technology1Picture2, .technology1Picture3, .technology1Picture4{
+    width: 100%;
+
+}
+
+.tech1Picture2, .tech1Picture3, .tech1Picture4{
+        display: block;
+        margin-left: 0.5em;
+        border: solid rgb(71, 68, 68) 2px;
+        width: 80%;
+        min-width: 70%;
+
+} 
 
 
 
@@ -1570,8 +1765,6 @@ z-index: 1;
 /* -------------technology4 Index1------------------- */
 
 .technology4SectionOne{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);  
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1654,22 +1847,6 @@ z-index: 1;
 } 
 
 
-@media (max-width:850px) {
-
-
-/* -------------header------------------- */
-    
-
-/* .navbar-toggler{
-align-self: center;
-margin-left: 80%;
-
-}  */
-
-} 
-
-
-
 @media (max-width:800px) {
 
 /* --------------technologyThree Index1---------------- */
@@ -1683,6 +1860,9 @@ margin-left: 80%;
     width: 80%;
 }
 
+.buttonBuildNow{
+    width: 7em;
+}
 
 
 /* --------------technologyThree Index2---------------- */
@@ -1692,14 +1872,10 @@ margin-left: 80%;
         width: 90%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 25%;
+        grid-template-rows: 30%;
     
     }
     
-    .divisionTechnology3{
-        width: 85%;
-    
-    }
 
     .tech3Intro h2{
         font-size: 2.6em;
@@ -1713,7 +1889,7 @@ margin-left: 80%;
     .technology3SectionTwo{
         width: 100%;
         grid-area: tech33;
-        height: auto;
+        /* height: auto; */
     
     }
     
@@ -1722,19 +1898,6 @@ margin-left: 80%;
         text-align: center;
         font-size: 2.6em;
     }
-    
-    
-    .divisionTechnology3 h2{
-        margin-top: 1em;
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-    
-    .divisionTechnology3 p{
-        font-size: 1.1em;
-        line-height: 1.7em;
-        width: 90%;
-    } 
     
     .blockchainIcon3{
         width: 3.5em;
@@ -1754,13 +1917,6 @@ margin-left: 80%;
     
 /* --------------index section6---------------- */
 
-.technology3SectionTwo{
-    background-color: rgb(240, 243, 38);
-    width: 100%;
-    grid-area: tech33;
-    height: auto;
-
-}
 
 .socialNetworks{
     padding: 3em;
@@ -1817,8 +1973,6 @@ margin-left: 80%;
 
 /* --------------index section5---------------- */
 
-
-
     .backers{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1827,50 +1981,26 @@ margin-left: 80%;
         grid-template-columns: repeat(2, 1fr);
     }
 
+
+/* -------------Technology2--------------- */
+
+
+    .technology2Picture1,.technology2Picture2,.technology2Picture3{
+        width: 100%;
+    }
+    
 } 
 
 @media (max-width:750px) {
 
 /* --------------indexThree---------------- */
 
-    .indexSectionThree{
-        background-color: white;
-        grid-area: index3;
-        width: 100%;
-    }
-    
-    .containerIndexThree{
-        display: flex;
-        flex-direction: column;
-    }
-    
-     .divisionIndexThree{
-        margin-left: 1em;
-        width: 95%;
-        max-width: 90%;
-    }
-    
-     .divisionIndexThree h2{
-        font-size: 1.3em;
-        font-weight: bold;
-        margin-top: 1.5em;
-        margin-left: 1em;
-    }
-    
-    .divisionIndexThree p{
-        font-size: 1.1em;
-        line-height: 1.4em;
-        margin-top: 0.5em;
-        margin-left: 1em;
-        width: 85%;
-    } 
-    
-    .blockchainIcon{
-        margin-left: 1em;
-        width: 3em;
-        height: 3em;
-    }
-    
+.containerIndexThree{
+    width: 90%;
+    margin: 1em 0em 1em 0em;
+    gap: 1.5em;
+}
+
 /* --------------IndexFour---------------- */
 
 .introIndexFour{
@@ -1899,23 +2029,30 @@ margin-left: 80%;
     width: 85%;
     display: flex;
     flex-direction: row;
-
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 
 .buttonBuildNow{
-    width: 7em;
+    width: 6em;
     border: 3px solid;
-    border-radius: 20px;
-    border-color: black;
-    color: black;
-    font-size: 1.5rem;
-    margin-top: 1em;
+    border-radius: 16px;
+    border-color: white;
+    color: white;
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    margin-top: 2em;
     padding: 0.2rem;
-    background-color: white;
     text-decoration: none;
     text-align: center;
+    transition: 0.8s;
+}
+
+.buttonBuildNow:hover{
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.1rem;
+
 }
 
 
@@ -1955,29 +2092,17 @@ margin-left: 80%;
 
 /* --------------TechnologyOne---------------- */
 
-.introToAura{
-    padding-left: 1em;
-}
-.technology1Picture1{
-    padding-left: 1em;
-}
 
-.column2{
-    padding-left:2em ;
-    width: 100%;
-}
 
 /* -------------technology2 section2------------------- */
 
-.technology2SectionTwo{
-    background-color: white;
-    grid-area: index3;
-    width: 100%;
-}
 
 .containerTechnology2{
     display: flex;
     flex-direction: column;
+    margin: 1em 0em 1em 0em;
+    gap: 1.5em;
+
 }
 
  .divisionTechnology{
@@ -2011,15 +2136,13 @@ margin-left: 80%;
 
 /* -------------technology2 section4------------------- */
 
-.technology2SectionFour{
-    background-color: white;
-    grid-area: index3;
-    width: 100%;
-}
 
 .container2Technology2{
     display: flex;
     flex-direction: column;
+    margin: 1em 0em 1em 0em;
+    gap: 1.5em;
+
 }
 
  .divisionTechnology2{
@@ -2056,9 +2179,6 @@ margin-left: 80%;
 
 
 
-
-
-
 } 
 
 
@@ -2074,7 +2194,7 @@ margin-left: 80%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2em;
 
@@ -2085,9 +2205,8 @@ margin-left: 80%;
     padding: 0.25em;
     width: 50%;
     min-width: 42%;
-    height: 10em;
     text-align: center;
-    box-shadow: 0 18px 36px -18px rgb(0 0 0 / 30%), 0 30px 60px -12px rgb(50 50 93 / 25%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
+    box-shadow: 0 18px 36px -18px rgba(252, 252, 252, 0.3), 0 30px 60px -12px rgb(50 50 93 / 25%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
     transition: 0.8s;
 }
 
@@ -2123,17 +2242,129 @@ margin-left: 80%;
     margin-left: 20%;
 }
 
+.column2{
+    padding-left:1em ;
+    width: 100%;
+}
 
 
+/* -------------technology2 section1------------------- */
 
 
+.stakeAura{   
+    padding: 3em 0.5em 0 2em;
+    width: 100%;
+}
+
+.stakeAura h2{
+    font-size: 2.8em;
+}
 
 
+.stakeAura p{
+    font-size: 1.8em;
+}
 
+
+.technology2Picture1{
+    width: 100%;
+    padding: 3em 0em 0em 1em;
+}
+
+
+.tech2Picture1{
+    margin-left: 1.2em;
+    margin-bottom: 2em;
+    display: block;
+    border: solid black 3px;
+    width: 90%;
+    height: 50%;
+}
+
+
+/* -------------technology2 section3------------------- */
+
+
+.fluidRewards{   
+    padding: 3em 0.5em 0 2em;
+    width: 100%;
+}
+
+.fluidRewards h2{
+    font-size: 2.8em;
+}
+
+
+.fluidRewards p{
+    font-size: 1.8em;
+}
+
+
+.technology2Picture2{
+    width: 100%;
+    padding: 3em 0em 0em 1em;
+}
+
+
+.tech2Picture2{
+    margin-left: 1.2em;
+    margin-bottom: 2em;
+    display: block;
+    border: solid black 3px;
+    width: 90%;
+    height: 50%;
+}
+
+
+/* -------------technology2 section5------------------- */
+
+.container2Technology3{
+    width: 100%;
+    padding: 2em 0.5em 0 2em;
+    color: white;
+}
+
+.technologyValidators{   
+    padding: 2em 0.5em 0 0em;
+    width: 100%;
+}
+
+.technologyValidators h2{
+    font-size: 3.2em;
+}
+
+.technologyValidators h3{
+    font-size: 2.4em;
+}
+
+
+.technologyValidators p{
+    font-size: 1.8em;
+}
+
+.requirements{   
+    padding: 0.5em 0.5em 0 0em;
+    width: 100%;
 }
 
 
 
+.technology2Picture3{
+    width: 100%;
+    padding: 0.5em 0em 0em 1em;
+}
+
+
+.tech2Picture3{
+    margin-left: 1.2em;
+    margin-bottom: 2em;
+    display: block;
+    border: solid black 3px;
+    width: 90%;
+    height: 50%;
+}
+
+}
 
 
 @media (max-width:575px) {
@@ -2154,8 +2385,91 @@ margin-left: 80%;
     margin: 2em 0em 2em 2em;
 
 }
-        
-        
+
+/* -------------index section One------------------- */
+
+
+.containerIndexOne h1{
+    width: 90%;
+    margin-left: 0.3em;
+}
+
+.containerIndexOne h2{
+    margin-top: 1em;
+    margin-left: 0.5em;
+
+}
+
+.containerIndexOne p{
+    width: 85%;
+    margin-left: 1.1em;
+    margin-top: 2em;
+
+}
+
+.DiscoverAuraButton{
+    margin: 1.2em 0em 2.5em 1em;
+
+
+}
+
+/* -------------index section Three------------------- */
+
+.indexSectionThree{
+    grid-area: index3;
+    width: 100%;
+}
+
+.containerIndexThree{
+    display: flex;
+    flex-direction: column;
+}
+
+ .divisionIndexThree{
+    margin-left: 1em;
+    width: 95%;
+    max-width: 90%;
+}
+
+ .divisionIndexThree h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+.divisionIndexThree p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: 85%;
+} 
+
+.blockchainIcon{
+    margin-left: 1em;
+    width: 3em;
+    height: 3em;
+}
+
+
+
+
+
+
+
+
+
+/* -------------index section Four------------------- */
+
+
+
+.buttonBuildNow{
+    width: 8em;
+
+}
+
+
 
 /* --------------IndexFive---------------- */
 
@@ -2178,54 +2492,35 @@ margin-left: 80%;
 .listfoot{
     display: flex;
     flex-direction: column;
+    margin-left: -1.5em;
+}
+
+.footerIcons{
+    padding: 0em;
+    width: 95%;
 }
 
 .socialListIcons{
     max-width: 85%;
     gap: 1em;
 
+
 } 
 
-/* -------------technology2 section5------------------- */
+.footerEnd a{
+    min-width: 3.5em;
+    width: 3.5em;
+    height: 3.5em;
 
-.container2Technology3{
-    display: flex;
-    flex-direction: column;
+}
+
+.iconFooter{
     width: 100%;
-    padding: 1em;
-    color: white;
-    gap: 1.5em;
+    height: 100%;
+    border-radius: 10px;
+
 }
 
-.technologyValidators{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    color: white;
-    gap: 1.5em;
-}
-
-
-.technologyValidators h2{
-    font-size: 2.3em;
-}
-
-.technologyValidators p{
-    font-size: 1.4em;
-}
-
-.technology2Picture3{
-    width: 100%;
-    padding: 1em;
-}
-
-.tech2Picture3{
-    margin-left: 1.2em;
-    margin-bottom: 2em;
-    display: block;
-    border: solid black 3px;
-    width: 85%;
-}
 
 /* --------------technologyThree Index2---------------- */
 
@@ -2273,6 +2568,12 @@ margin-left: 80%;
     margin: 2em 0em 2em 1.5em;
 }
 
+/* -------------footer------------------- */
+
+
+
+
+
 } 
 
 
@@ -2290,12 +2591,12 @@ margin-left: 80%;
 
     .containerIndexOne h1{
         font-size: 2.5em;
-        margin-left: 0.5em;
+        margin-left: 0.2em;
 
     }
     .containerIndexOne h2{
         font-size: 2em;
-        margin-left: 0.8em;
+        margin-left: 0.3em;
 
     }
 
@@ -2303,23 +2604,305 @@ margin-left: 80%;
         width: 90%;
         font-size: 1em;
         line-height: 1.5em;
-        margin-left: 1.5em;
+        margin-left: 0.6em;
     }
 
     .DiscoverAuraButton{
         width: 7em;
         border: 2px solid;
         border-radius: 12px;
-        border-color: black;
-        color: black;
+        border-color: white;
+        color: white;
         font-size: 1em;
-        margin: 1.2em 0em 2.5em 1.2em;
+        margin: 1.2em 0em 2.5em 0.5em;
         padding: 0.1rem;
-        background-color: white;
         text-decoration: none;
         text-align: center;
     
     }
 
+    .DiscoverAuraButton:hover{
+        background-color: #5B4B8A;
+        color: white;
+        font-size: 1.1rem;
+    
+    }
+    .buttonBuildNow{
+        width: 8.5em;
+        border: 2px solid;
+        border-radius: 16px;
+        border-color: white;
+        color: white;
+        font-size: 1rem;
+        margin-left: 2.5rem;
+        margin-top: 2em;
+        padding: 0.1em;
+        text-decoration: none;
+        text-align: center;
+        transition: 0.8s;
+    }
+    
+    .buttonBuildNow:hover{
+        background-color: #5B4B8A;
+        color: white;
+        font-size: 1.1rem;
+    
+    }
+
+/* ------------index section3----------- */
+
+    .divisionIndexThree{
+        width: 20em;
+        padding: 0em;
+        border-radius: 15px;
+        
+    }
+
+/* ------------technologyOne----------- */
+
+.technology1SectionOne{
+    padding: 1em 0.5em 1em 0em;
+}
+
+.introToAura{   
+    padding-left: 0em;
+    width: 100%;
+}
+
+.technology1Picture1{
+    width: 100%;
+    padding: 1em 0.5em 1em 0em;
+}
+
+.techPicture1{
+    margin-left: 1.2em;
+    margin-bottom: 0em;
+    display: block;
+    border: solid black 3px;
+    width: 90%;
+    height: 60%;
+} 
+
+.column2{
+    padding-left:0em ;
+    width: 100%;
+    margin: 0em;
+    padding-right: 1em ;
+
+}
+.column2{
+    color: white;
+
+
+}
+
+.technology1Picture2, .technology1Picture3, .technology1Picture4{
+    width: 100%;
+
+}
+
+.tech1Picture2, .tech1Picture3, .tech1Picture4{
+        display: block;
+        margin-left: 0.5em;
+        border: solid rgb(71, 68, 68) 2px;
+        width: 90%;
+
+} 
+
+
+/* -------------technology2 section1------------------- */
+
+.stakeAura h2{
+    font-size: 2.2em;
+}
+
+.stakeAura p{
+    font-size: 1.5em;
+}
+
+.technology2Picture1{
+    width: 100%;
+    padding: 3em 0em 0em 0em;
+}
+
+/* -------------technology2 section3------------------- */
+
+.fluidRewards h2{
+    font-size: 2.2em;
+}
+
+.fluidRewards p{
+    font-size: 1.5em;
+}
+
+.technology2Picture2{
+    width: 100%;
+    padding: 3em 0em 0em 0em;
+}
+
+/* -------------technology2 section5------------------- */
+
+.container2Technology3{
+    width: 100%;
+    padding: 2em 0.5em 0 2em;
+    color: white;
+}
+
+.technologyValidators{   
+    padding: 2em 0.5em 0 0em;
+    width: 100%;
+}
+
+.technologyValidators h2{
+    font-size: 2.2em;
+}
+
+.technologyValidators h3{
+    font-size: 2em;
+}
+
+
+.technologyValidators p{
+    font-size: 1.5em;
+}
+
+
+.technology2Picture3{
+    width: 100%;
+    padding: 0.5em 0em 0em 0em;
+}
+
+/* --------------technologyThree Index1---------------- */
+
+.tech3Intro h2{
+    font-size: 2.9em;
+}
+
+.tech3Intro p{
+    font-size: 1.6em;
+    width: 80%;
+}
+
+.buttonBuildNow{
+    width: 7em;
+}
+
+
+/* --------------technologyThree Index2---------------- */
+
+    
+    .containerTechnology3{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30%;
+    
+    }
+    .divisionTechnology3{
+        margin: 0.5em 0em 1em 0em;
+    }
+
+    .tech3Intro h2{
+        font-size: 2.6em;
+
+    }
+    
+    .tech3Intro p{
+        width: 95%;
+        font-size: 1.5em;
+    }
+
+    .technology3SectionTwo h3{
+        margin-bottom: 1.5em;
+        text-align: left;
+        font-size: 2.6em;
+        margin-left: 0.5em;
+    }
+    
+    .technology3Picture1{
+        width: 100%;
+        padding: 3em 1em 0em 1em;
+    }
+
+    .aurSupply{
+        width: 100%;
+        padding: 2em 1em 1em 2em;
+    }
+    
+    .aurSupply h2{
+        width: 90%;
+        font-size: 2.6em;
+
+    }
+    
+    .aurSupply p{
+        width: 95%;
+        font-size: 1.2rem;
+
+    }
+    
+    .aurBuy{
+        width: 100%;
+        padding: 2em 1em 1em 2em;
+    }
+    
+    .aurBuy h2{
+        width: 90%;
+        font-size: 2.6em;
+    }
+    
+    .aurBuy p{
+        width: 95%;
+        font-size: 1.2rem;
+    } 
+    
+    
+/* --------------technologyFour---------------- */
+
+    .containerTechnology4{
+        padding: 2em 0.5em 0 1em;
+
+    }
+    
+    .technology4Picture1{
+        padding: 1em 1em 0em 2em;
+    
+    }
+    
+    .tech4Picture1{
+        display: block;
+        border: solid rgb(71, 68, 68) 2px;
+        width: 90%;
+        height: 80%;
+    }
+    
+    
+    .soul{
+        padding: 0em 1em 1em 1em;
+        width: 95%;
+    
+    }
+    
+    .soul h2{
+        width: 100%;
+        font-size: 2.8em;
+    }
+    
+    .soul p{
+        width: 100%;
+        line-height: 1.95rem;
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+    
+    }
+    
+    .soulIs{
+        padding: 0em 1em 1em 1em;
+        width: 95%;
+    }
+    
+    .column22{
+        padding-left:2em ;
+}
 
 }

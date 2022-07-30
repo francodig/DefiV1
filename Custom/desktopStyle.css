@@ -2248,6 +2248,20 @@ z-index: 1;
 }
 
 
+/* -------------technology1 section1------------------- */
+.introToAura{   
+    padding: 3em 0.5em 0 1.5em;
+    width: 100%;
+    margin-bottom: 0.5em;
+
+}
+
+.technology1Picture1{
+    width: 100%;
+    padding: 1em 0.5em 0em 1em;
+}
+
+
 /* -------------technology2 section1------------------- */
 
 
@@ -2665,7 +2679,7 @@ z-index: 1;
 }
 
 .introToAura{   
-    padding-left: 0em;
+    padding-left: 0.5em;
     width: 100%;
 }
 

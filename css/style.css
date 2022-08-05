@@ -71,16 +71,13 @@ header {
   text-decoration: none;
   text-align: center;
   transition: 0.8s; }
-
-.DiscoverAuraButton:hover {
-  background-color: #5B4B8A;
-  color: white;
-  font-size: 1.6em; }
+  .DiscoverAuraButton:hover {
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.6em; }
 
 /* ---------------------index2-------------------- */
 .indexSectionTwo {
-  /* background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
   width: 100%;
   display: flex; }
 
@@ -113,8 +110,6 @@ header {
 
 /* ---------------------index3-------------------- */
 .indexSectionThree {
-  /* background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
   display: flex; }
 
 .containerIndexThree {
@@ -124,42 +119,36 @@ header {
   justify-content: flex-start;
   margin: 1em auto;
   gap: 3em; }
+  .containerIndexThree .divisionIndexThree {
+    width: 20em;
+    padding: 1em;
+    border-radius: 15px;
+    transition: 0.6s; }
+    .containerIndexThree .divisionIndexThree h2 {
+      margin-top: 1em;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white; }
+    .containerIndexThree .divisionIndexThree p {
+      font-size: 1rem;
+      line-height: 1.4rem;
+      width: 90%;
+      color: white; }
+    .containerIndexThree .divisionIndexThree:hover {
+      background-color: rgba(221, 209, 209, 0.149);
+      color: white;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; }
 
-.divisionIndexThree {
-  width: 20em;
-  padding: 1em;
-  border-radius: 15px;
-  transition: 0.6s; }
-
-.divisionIndexThree:hover {
-  background-color: rgba(221, 209, 209, 0.149);
-  color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; }
-
-.divisionIndexThree h2 {
-  margin-top: 1em;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white; }
-
-.divisionIndexThree p {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  width: 90%;
-  color: white; }
-
-.blockchainIcon {
+.blockchainIcon, .blockchainIcon3 {
   width: 3.5em;
   height: 3.5em; }
 
 /* ---------------------index4-------------------- */
 .indexSectionFour {
-  /* background-color: red; */
   width: 100%; }
 
 .introIndexFour {
   width: 100%;
-  /* background-color: #610C63; */
   display: flex;
   flex-direction: column;
   align-items: flex-start; }
@@ -206,7 +195,6 @@ header {
 
 .divisionsIndexFour {
   width: 100%;
-  /* background-color: #610C63; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -400,14 +388,13 @@ header {
   margin-top: 2em;
   margin-bottom: 0.5em;
   display: flex;
-  flex-direction: row;
-  /* background-color: #610C63; */ }
+  flex-direction: row; }
 
 .socialIntro .socialIcon {
   margin-left: 22%; }
 
 /* -------------technology1------------------- */
-.containerTech1 {
+.containerTech1, .containerTech2, .containerTech3, .containerTech4 {
   background-image: url(../Assets/pictures/background2.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
@@ -427,9 +414,9 @@ header {
   padding: 3em 0em 0em 4.5em; }
 
 .introToAura h2 {
+  color: white;
   font-size: 2em;
-  margin-left: 0.5em;
-  color: white; }
+  margin-left: 0.5em; }
 
 .introToAura p {
   margin-top: 1.7em;
@@ -491,12 +478,17 @@ header {
   border: solid #474444 2px;
   width: 70%; }
 
-.whyAura, .auraWorks, .auraGoing h2 {
+.whyAura h2, .auraWorks h2, .auraGoing h2 {
+  color: white;
   font-size: 2em;
-  margin-left: 0.5em;
-  color: white; }
+  margin-left: 0.5em; }
 
-.whyAura, .auraWorks, .auraGoing p {
+.auraWorks h3, .auraWorks2 h3 {
+  color: white;
+  font-size: 2em;
+  margin-left: 0.5em; }
+
+.whyAura p, .auraWorks p, .auraGoing p, .auraWorks p, .auraWorks p {
   margin-top: 1.7em;
   line-height: 1.7em;
   font-size: 1.1em;
@@ -505,11 +497,6 @@ header {
 
 /* --------------TechnologyTwo---------------- */
 /* -------------technology2 section1------------------- */
-.containerTech2 {
-  background-image: url(../Assets/pictures/background2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .technology2SectionOne {
   display: flex;
   flex-direction: row;
@@ -590,10 +577,6 @@ header {
   font-size: 1rem;
   line-height: 1.4rem;
   width: 90%; }
-
-.blockchainIcon {
-  width: 3.5em;
-  height: 3.5em; }
 
 /* -------------technology2 section3------------------- */
 .technology2SectionThree {
@@ -677,7 +660,7 @@ header {
   line-height: 1.4rem;
   width: 90%; }
 
-.blockchainIcon {
+.blockchainIcon, .blockchainIcon3 {
   width: 3.5em;
   height: 3.5em; }
 
@@ -730,14 +713,7 @@ header {
   display: grid;
   grid-template-areas: "header" "tech31" "tech32" "tech33" "footer"; }
 
-.containerTech3 {
-  background-image: url(../Assets/pictures/background2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .technology33SectionOne {
-  /* background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
   padding: 1em;
   grid-area: tech31; }
 
@@ -760,8 +736,6 @@ header {
 
 /* ----------------technology3 Section 2------------------------------- */
 .technology3SectionTwo {
-  /* background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
   width: 100%;
   grid-area: tech33;
   height: auto; }
@@ -786,7 +760,7 @@ header {
   transition: 0.6s; }
 
 .divisionTechnology3:hover {
-  background-color: #6a0ae7;
+  background-color: #7953e2;
   opacity: 1; }
 
 .technology3SectionTwo h3 {
@@ -804,10 +778,6 @@ header {
   font-size: 1.1em;
   line-height: 1.7em;
   width: 90%; }
-
-.blockchainIcon3 {
-  width: 3.5em;
-  height: 3.5em; }
 
 .technology3Picture1 {
   width: 100%;
@@ -859,19 +829,12 @@ header {
   display: grid;
   grid-template-areas: "header" "tech41" "tech42" "footer"; }
 
-.containerTech4 {
-  background-image: url(../Assets/pictures/background2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .technology4SectionOne {
-  /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);   */
   display: flex;
   flex-direction: row;
   width: 100%;
   height: auto;
-  margin-bottom: 10em; }
+  margin-bottom: 5em; }
 
 .containerTechnology4 {
   display: flex;
@@ -919,6 +882,10 @@ header {
 .soulIs ul li {
   display: list-item;
   margin-top: 1em; }
+
+.container2Technology4 li {
+  width: 80%;
+  margin-top: 0.25em; }
 
 /* ----------------technology4 Section two------------------------------- */
 .technology4SectionTwo {
@@ -1414,7 +1381,7 @@ header {
     margin-top: 0.5em;
     margin-left: 1em;
     width: 85%; }
-  .blockchainIcon {
+  .blockchainIcon, .blockchainIcon3 {
     margin-left: 1em;
     width: 3em;
     height: 3em; }
@@ -1500,7 +1467,7 @@ header {
     margin-top: 0.5em;
     margin-left: 1em;
     width: 85%; }
-  .blockchainIcon {
+  .blockchainIcon, .blockchainIcon3 {
     margin-left: 1em;
     width: 3em;
     height: 3em; }
@@ -1526,7 +1493,7 @@ header {
     margin-top: 0.5em;
     margin-left: 1em;
     width: 85%; }
-  .blockchainIcon {
+  .blockchainIcon, .blockchainIcon3 {
     margin-left: 1em;
     width: 3em;
     height: 3em; } }
@@ -1713,10 +1680,6 @@ header {
 
 @media (max-width: 450px) {
   /* -------------header------------------- */
-  /* .navbar-toggler{
-        align-self: center;
-        margin-left: 60%;         
-    }             */
   .logo {
     width: 5em;
     height: 5em;

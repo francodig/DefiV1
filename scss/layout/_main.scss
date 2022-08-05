@@ -6,116 +6,104 @@
     background: linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
+
 .indexSectionOne{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.containerIndexOne h1{
-    width: 90%;
-    margin-left: 0.7em;
-    margin-top: 1.25em;
-    font-size: 5.5rem;
-    color: white;
-}
-
-.containerIndexOne h2{
-    margin-top: 1em;
-    margin-left: 1.2em;
-    font-size: 3.5rem;
-    color: white;
-
+     width: 100%;
+     display: flex;
+     flex-direction: column;
 
 }
 
-.containerIndexOne p{
-    width: 70%;
-    margin-left: 2.2em;
-    margin-top: 2em;
-    line-height: 2.6rem;
-    font-size: 1.8rem;
-    color: white;
+.containerIndexOne{
+    h1{
+     width: 90%;
+     margin-left: 0.7em;
+     margin-top: 1.25em;
+     font-size: 5.5rem;
+     color: white;
+ }
 
+    h2{
+     margin-top: 1em;
+     margin-left: 1.2em;
+     font-size: 3.5rem;
+     color: white;
 
+ }
+
+    p{
+     width: 70%;
+     margin-left: 2.2em;
+     margin-top: 2em;
+     line-height: 2.6rem;
+     font-size: 1.8rem;
+     color: white;
+
+ }
 }
 
+ .DiscoverAuraButton{
+     width: 7em;
+     border: 3px solid;
+     border-radius: 20px;
+     border-color: white;
+     color: white;
+     font-size: 1.5rem;
+     margin: 1.2em 0em 2.5em 2.5em;
+     padding: 0.3rem;
+     text-decoration: none;
+     text-align: center;
+     transition: 0.8s;
+     &:hover{
+        background-color: #5B4B8A;
+        color: white;
+        font-size: 1.6em;
+    }   
 
-.DiscoverAuraButton{
-    width: 7em;
-    border: 3px solid;
-    border-radius: 20px;
-    border-color: white;
-    color: white;
-    font-size: 1.5rem;
-    margin: 1.2em 0em 2.5em 2.5em;
-    padding: 0.3rem;
-    text-decoration: none;
-    text-align: center;
-    transition: 0.8s;
-
-}
-
-.DiscoverAuraButton:hover{
-    background-color: #5B4B8A;
-    color: white;
-    font-size: 1.6em;
-}   
-
+ }
 
 /* ---------------------index2-------------------- */
  .indexSectionTwo{
-    /* background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
     width: 100%;
     display: flex;
     
     }
 
-    .containerIndexTwo h2{
+.containerIndexTwo{
+    h2{
         color: white;
         margin-top: 2em;
         font-size: 1.4em;
         text-align: center;
     }
-
-    .containerIndexTwo h3{
+    h3{
         font-size: 2.4em;
         margin-top: 1rem;
         text-align: center;
         color: white;
-
-
     }
-
-    .containerIndexTwo p{
+    p{
         margin: auto;
         font-size: 1.4em;
         margin-top: 1em;
         text-align: center;
         width: 75%;
         color: white;
-
     }  
 
-
-    .videoIndex2{
-        display: block;
-        margin: 2em auto;
-        width: 70em;
-        max-width: 90%;
-        height: 35em;
-    } 
-
+}
+.videoIndex2{
+    display: block;
+    margin: 2em auto;
+    width: 70em;
+    max-width: 90%;
+    height: 35em;
+} 
 
 /* ---------------------index3-------------------- */
 
 .indexSectionThree{
-    /* background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
     display: flex;
 
 }
@@ -127,37 +115,32 @@
     justify-content: flex-start;
     margin: 1em auto;
     gap: 3em;
+    .divisionIndexThree{
+        width: 20em;
+        padding: 1em;
+        border-radius: 15px;  
+        transition: 0.6s;
+        h2{
+            margin-top: 1em;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        
+        }
+        p{
+            font-size: 1rem;
+            line-height: 1.4rem;
+            width: 90%;
+            color: white;
+        
+        } 
+        &:hover{
+            background-color: rgba(221, 209, 209, 0.149);
+            color: white;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        } 
+    }
 }
-
-.divisionIndexThree{
-    width: 20em;
-    padding: 1em;
-    border-radius: 15px;  
-    transition: 0.6s;  
-}
-
-.divisionIndexThree:hover{
-    background-color: rgba(221, 209, 209, 0.149);
-    color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    
-}
-
-.divisionIndexThree h2{
-    margin-top: 1em;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-
-}
-
-.divisionIndexThree p{
-    font-size: 1rem;
-    line-height: 1.4rem;
-    width: 90%;
-    color: white;
-
-} 
 
 .blockchainIcon{
     width: 3.5em;
@@ -165,18 +148,15 @@
 }
  
 
-
 /* ---------------------index4-------------------- */
   
 .indexSectionFour{
-    /* background-color: red; */
     width: 100%;
  }
  
 
 .introIndexFour{
     width: 100%;
-    /* background-color: #610C63; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -233,7 +213,6 @@
 
 .divisionsIndexFour{
     width: 100%;
-    /* background-color: #610C63; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -483,8 +462,6 @@
     margin-bottom: 0.5em;
     display: flex;
     flex-direction: row;
-    /* background-color: #610C63; */
-
 }
 .socialIntro .socialIcon{
     margin-left: 22%;
@@ -517,9 +494,10 @@
 }
 
 .introToAura h2{
-    font-size: 2em;
-    margin-left: 0.5em;
-    color: white;
+    @include atributosH;
+    // font-size: 2em;
+    // margin-left: 0.5em;
+    // color: white;
 }
 
 .introToAura p{
@@ -597,19 +575,24 @@ z-index: 1;
     width: 70%;
 }
 
-.whyAura, .auraWorks, .auraGoing h2{
-    font-size: 2em;
-    margin-left: 0.5em;
-    color: white;
+.whyAura h2, .auraWorks h2, .auraGoing h2{
+    @include atributosH;
 }
 
-.whyAura, .auraWorks, .auraGoing p{
+.auraWorks h3, .auraWorks2 h3{
+    @include atributosH;
+}
+
+
+.whyAura p, .auraWorks p, .auraGoing p,.auraWorks p, .auraWorks p{
     margin-top: 1.7em;
     line-height: 1.7em;
     font-size: 1.1em;
     margin-left: 1em;
     color: white;
 }
+
+
 
 
 /* --------------TechnologyTwo---------------- */
@@ -619,9 +602,7 @@ z-index: 1;
 
 
 .containerTech2{
-    background-image: url(../Assets/pictures/background2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
+    @extend .containerTech1;
 }
 
 .technology2SectionOne{
@@ -715,7 +696,7 @@ z-index: 1;
 
 
 .divisionTechnology:hover{
-    background-color: #7953e2;
+    background-color: $variable1;
     color: black;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
@@ -734,8 +715,7 @@ z-index: 1;
 } 
 
 .blockchainIcon{
-    width: 3.5em;
-    height: 3.5em;
+    @extend .blockchainIcon;
 }
  
 /* -------------technology2 section3------------------- */
@@ -827,7 +807,7 @@ z-index: 1;
 }
 
 .divisionTechnology2:hover{
-    background-color: #7953e2;
+    background-color: $variable1;
     color: black;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     
@@ -925,14 +905,10 @@ z-index: 1;
 }
 
 .containerTech3{
-    background-image: url(../Assets/pictures/background2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
+    @extend .containerTech1;
 }
 
 .technology33SectionOne{
-    /* background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
     padding: 1em;
     grid-area: tech31;
 }
@@ -963,8 +939,6 @@ z-index: 1;
 /* ----------------technology3 Section 2------------------------------- */
 
 .technology3SectionTwo{
-    /* background: rgb(216,156,219);
-    background: linear-gradient(90deg, rgba(216,156,219,1) 0%, rgba(201,144,201,1) 14%, rgba(219,93,219,1) 30%, rgba(219,38,218,1) 49%, rgba(231,7,227,1) 72%, rgba(153,82,150,1) 100%); */
     width: 100%;
     grid-area: tech33;
     height: auto;
@@ -996,7 +970,7 @@ z-index: 1;
 }
 
 .divisionTechnology3:hover{
-    background-color: rgb(106, 10, 231);
+    background-color: $variable1;
     opacity: 1;
 }
 
@@ -1021,8 +995,7 @@ z-index: 1;
 } 
 
 .blockchainIcon3{
-    width: 3.5em;
-    height: 3.5em;
+    @extend .blockchainIcon;
 }
 
 
@@ -1097,19 +1070,15 @@ z-index: 1;
 }
 
 .containerTech4{
-    background-image: url(../Assets/pictures/background2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
+    @extend .containerTech1;
 }
 
 .technology4SectionOne{
-    /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);   */
     display: flex;
     flex-direction: row;
     width: 100%;
     height: auto;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 
 }
 
@@ -1173,6 +1142,11 @@ z-index: 1;
     display: list-item;
     margin-top: 1em;
 
+}
+
+.container2Technology4 li{
+    width: 80%;
+    margin-top: 0.25em;
 }
 
 /* ----------------technology4 Section two------------------------------- */

@@ -10,7 +10,7 @@ header {
   width: 100%; }
 
 .navbar {
-  background-color: #efdbf0ee; }
+  background-color: #ffffff7c; }
 
 .logo {
   width: 7em;
@@ -956,7 +956,7 @@ header {
 
 /* ---------------------footer-------------------- */
 .containerFooter {
-  background-color: #efdbf0ee;
+  background-color: #ffffff7c;
   display: flex;
   flex-direction: column; }
 
@@ -1053,7 +1053,7 @@ header {
 @media (min-width: 993px) {
   /* -------------header------------------- */
   header {
-    background-color: #efdbf0ee;
+    background-color: #ffffff7c;
     width: 100%; }
   .logo {
     width: 7em;

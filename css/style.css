@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: "Oswald"; }
+
 /* -----------------header---------------- */
 header {
-  background-color: #FFF9D7;
-  display: flex;
-  flex-direction: row;
   width: 100%; }
+
+.navbar {
+  background-color: #efdbf0ee; }
 
 .logo {
   width: 7em;
@@ -15,14 +18,15 @@ header {
   border-radius: 20px;
   margin: 2em 0em 2em 5em; }
 
-.navbar {
-  background-color: #FFF9D7;
-  width: 100%;
-  text-align: left; }
+#navbarNav {
+  margin-right: 3em; }
+
+#navbarNav ul {
+  display: flex;
+  gap: 3em; }
 
 /* ---------------------index1-------------------- */
 .background {
-  /* background-image: url(../Assets/pictures/background.jpg); */
   background: #aa4b6b;
   background: -webkit-linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.5)), url(../Assets/pictures/background1.jpg);
   background: linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.5)), url(../Assets/pictures/background1.jpg);
@@ -30,7 +34,6 @@ header {
   background-size: cover; }
 
 .indexSectionOne {
-  /* background-color: #810955;  */
   width: 100%;
   display: flex;
   flex-direction: column; }
@@ -125,12 +128,13 @@ header {
 .divisionIndexThree {
   width: 20em;
   padding: 1em;
-  border-radius: 15px; }
+  border-radius: 15px;
+  transition: 0.6s; }
 
 .divisionIndexThree:hover {
-  background: #355C7D;
-  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); }
+  background-color: rgba(221, 209, 209, 0.149);
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; }
 
 .divisionIndexThree h2 {
   margin-top: 1em;
@@ -352,7 +356,6 @@ header {
   color: white; }
 
 .socialNetworks {
-  /* background-color: #610C63; */
   padding: 1em;
   width: 100%;
   display: flex;
@@ -363,13 +366,14 @@ header {
   padding: 0.5em; }
 
 .socials {
-  /* background-color: #610C63; */
   padding: 0.25em;
   margin-top: 3rem;
   margin-bottom: 5em;
   width: 18%;
   text-align: center;
-  transition: 0.8s; }
+  transition: 0.8s;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.671) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; }
 
 .socials:hover {
   transform: translateY(-25px);
@@ -408,14 +412,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* background: rgb(170, 75, 107);  
-background: -webkit-linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg); 
-background: linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg);
-background-repeat: no-repeat;
-background-size: cover; */
 .technology1SectionOne {
-  /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);  */
   display: flex;
   flex-direction: row;
   width: 100%; }
@@ -448,8 +445,6 @@ background-size: cover; */
   height: 80%; }
 
 .technology1SectionTwo {
-  /* background: rgb(243,240,245);
-    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%; */
   display: flex;
   flex-direction: row; }
 
@@ -510,9 +505,12 @@ background-size: cover; */
 
 /* --------------TechnologyTwo---------------- */
 /* -------------technology2 section1------------------- */
+.containerTech2 {
+  background-image: url(../Assets/pictures/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .technology2SectionOne {
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #b252ec 94%, #8e09c7 100%);
   display: flex;
   flex-direction: row;
   width: 100%; }
@@ -561,7 +559,6 @@ background-size: cover; */
 
 /* -------------technology2 section2------------------- */
 .technology2SectionTwo {
-  background-color: #FFF9D7;
   display: flex; }
 
 .containerTechnology2 {
@@ -575,12 +572,14 @@ background-size: cover; */
 .divisionTechnology {
   width: 20em;
   padding: 1em;
-  border-radius: 15px; }
+  border-radius: 15px;
+  transition: 0.6s;
+  color: white; }
 
 .divisionTechnology:hover {
-  background: #355C7D;
-  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); }
+  background-color: #7953e2;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; }
 
 .divisionTechnology h2 {
   margin-top: 1em;
@@ -598,9 +597,6 @@ background-size: cover; */
 
 /* -------------technology2 section3------------------- */
 .technology2SectionThree {
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #b252ec 94%, #8e09c7 100%);
-  height: 38em;
   display: flex;
   flex-direction: row;
   width: 100%; }
@@ -649,7 +645,6 @@ background-size: cover; */
 
 /* -------------technology2 section4------------------- */
 .technology2SectionFour {
-  background-color: #FFF9D7;
   display: flex; }
 
 .container2Technology2 {
@@ -657,18 +652,20 @@ background-size: cover; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 1em auto;
+  margin: 5em auto;
   gap: 3em; }
 
 .divisionTechnology2 {
   width: 20em;
   padding: 1em;
-  border-radius: 15px; }
+  border-radius: 15px;
+  transition: 0.6s;
+  color: white; }
 
 .divisionTechnology2:hover {
-  background: #355C7D;
-  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); }
+  background-color: #7953e2;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; }
 
 .divisionTechnology2 h2 {
   margin-top: 1em;
@@ -686,9 +683,6 @@ background-size: cover; */
 
 /* -------------technology2 section5------------------- */
 .technology2SectionFive {
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #b252ec 94%, #8e09c7 100%);
-  height: 38em;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -734,11 +728,7 @@ background-size: cover; */
 /* ----------------technology3 Section one------------------------------- */
 .fathertech3 {
   display: grid;
-  grid-template-areas: "header"
- "tech31"
- "tech32"
- "tech33"
- "footer"; }
+  grid-template-areas: "header" "tech31" "tech32" "tech33" "footer"; }
 
 .containerTech3 {
   background-image: url(../Assets/pictures/background2.jpg);
@@ -867,10 +857,7 @@ background-size: cover; */
 /* ----------------technology4 Section one------------------------------- */
 .fathertech4 {
   display: grid;
-  grid-template-areas: "header"
- "tech41"
- "tech42"
- "footer"; }
+  grid-template-areas: "header" "tech41" "tech42" "footer"; }
 
 .containerTech4 {
   background-image: url(../Assets/pictures/background2.jpg);
@@ -969,7 +956,7 @@ background-size: cover; */
 
 /* ---------------------footer-------------------- */
 .containerFooter {
-  background-color: #FFF9D7;
+  background-color: #efdbf0ee;
   display: flex;
   flex-direction: column; }
 
@@ -1023,15 +1010,11 @@ background-size: cover; */
 
 .socialListIcons li a span {
   opacity: 0;
-  transition: 0.5s ease-in; }
+  transition: 0.5s ease-in;
+  font-size: 1em; }
 
 .socialListIcons li:hover a span {
   opacity: 2; }
-
-.fa-brands {
-  color: #1f1f1f;
-  font-size: 4em;
-  transition: 0.8s; }
 
 .fa-brands {
   color: #1f1f1f;
@@ -1067,27 +1050,52 @@ background-size: cover; */
 .socialListIcons li a {
   list-style: none; }
 
-@media (max-width: 1050px) {
+@media (min-width: 993px) {
   /* -------------header------------------- */
-  /* .navbar-nav{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 2.5em;
-            margin-left: 10em;
-        
-        }
-        
-        .navbar-nav a{
-            font-size: 1.15em;
-            font-weight: 500;
-        }    
-    
-    .navbar-toggler{
-        align-self: center;
-        margin-left: 90%;
-    
-    }  */
+  header {
+    background-color: #efdbf0ee;
+    width: 100%; }
+  .logo {
+    width: 7em;
+    height: 7em;
+    border-radius: 20px;
+    margin: 2em 0em 2em 5em; }
+  #navbarNav {
+    margin-right: 3em; }
+  #navbarNav ul {
+    display: flex;
+    gap: 3em; }
+  #navbarNav ul li a {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: black;
+    transition: 0.7s; }
+  #navbarNav ul li a:hover {
+    color: #a70cd6; } }
+
+@media (max-width: 992px) {
+  /* -------------header------------------- */
+  #navbarNav {
+    margin-right: 3em; }
+  #navbarNav ul {
+    display: flex;
+    gap: 0em; }
+  #navbarNav ul li a {
+    margin-left: 5.5em; }
+  #navbarNav ul li a:hover {
+    color: #a70cd6; } }
+
+@media (max-width: 576px) {
+  /* -------------header------------------- */
+  #navbarNav ul li a {
+    margin-left: 2.5em; } }
+
+@media (max-width: 450px) {
+  /* -------------header------------------- */
+  #navbarNav ul li a {
+    margin-left: 2em; } }
+
+@media (max-width: 1050px) {
   /* -------------Index sectionFive------------------- */
   .socialIntro .socialIcon {
     margin-left: 7%; }
@@ -1384,10 +1392,32 @@ background-size: cover; */
 
 @media (max-width: 750px) {
   /* --------------indexThree---------------- */
+  /* -------------index section Three------------------- */
+  .indexSectionThree {
+    grid-area: index3;
+    width: 100%; }
   .containerIndexThree {
-    width: 90%;
-    margin: 1em 0em 1em 0em;
-    gap: 1.5em; }
+    display: flex;
+    flex-direction: column; }
+  .divisionIndexThree {
+    width: 95%;
+    max-width: 90%;
+    box-shadow: rgba(231, 223, 223, 0.473) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
+  .divisionIndexThree h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-left: 1em; }
+  .divisionIndexThree p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: 85%; }
+  .blockchainIcon {
+    margin-left: 1em;
+    width: 3em;
+    height: 3em; }
   /* --------------IndexFour---------------- */
   .introIndexFour {
     width: 100%;
@@ -1455,10 +1485,10 @@ background-size: cover; */
     margin: 1em 0em 1em 0em;
     gap: 1.5em; }
   .divisionTechnology {
-    background-color: white;
     margin-left: 1em;
     width: 95%;
-    max-width: 90%; }
+    max-width: 90%;
+    box-shadow: rgba(231, 223, 223, 0.473) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
   .divisionTechnology h2 {
     font-size: 1.3em;
     font-weight: bold;
@@ -1481,10 +1511,10 @@ background-size: cover; */
     margin: 1em 0em 1em 0em;
     gap: 1.5em; }
   .divisionTechnology2 {
-    background-color: white;
     margin-left: 1em;
     width: 95%;
-    max-width: 90%; }
+    max-width: 90%;
+    box-shadow: rgba(231, 223, 223, 0.473) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
   .divisionTechnology2 h2 {
     font-size: 1.3em;
     font-weight: bold;
@@ -1637,32 +1667,6 @@ background-size: cover; */
     margin-top: 2em; }
   .DiscoverAuraButton {
     margin: 1.2em 0em 2.5em 1em; }
-  /* -------------index section Three------------------- */
-  .indexSectionThree {
-    grid-area: index3;
-    width: 100%; }
-  .containerIndexThree {
-    display: flex;
-    flex-direction: column; }
-  .divisionIndexThree {
-    margin-left: 1em;
-    width: 95%;
-    max-width: 90%; }
-  .divisionIndexThree h2 {
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-top: 1.5em;
-    margin-left: 1em; }
-  .divisionIndexThree p {
-    font-size: 1.1em;
-    line-height: 1.4em;
-    margin-top: 0.5em;
-    margin-left: 1em;
-    width: 85%; }
-  .blockchainIcon {
-    margin-left: 1em;
-    width: 3em;
-    height: 3em; }
   /* -------------index section Four------------------- */
   .buttonBuildNow {
     width: 8em; }
@@ -1718,7 +1722,9 @@ background-size: cover; */
     height: 5em;
     border-radius: 20px;
     margin: 2em 0em 2em 1.5em; }
-  /* -------------footer------------------- */ }
+  /* -------------footer------------------- */
+  .footerEnd {
+    margin-left: 2.2em; } }
 
 @media (max-width: 375px) {
   .socialNetworks {

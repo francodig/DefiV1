@@ -1,32 +1,83 @@
 
 
+@media (min-width:993px) {
+    /* -------------header------------------- */
+
+    header{
+        background-color: $variable;
+        width: 100%;
+    }
+    
+    .logo{
+        width: 7em;
+        height: 7em;
+        border-radius: 20px;
+        margin: 2em 0em 2em 5em;
+    }
+    
+    #navbarNav {
+        margin-right: 3em;
+    }
+    
+    #navbarNav ul{
+        display: flex;
+        gap: 3em;
+    }
+
+    #navbarNav ul li a{
+        font-size: 1.25em;
+        font-weight: 500;
+        color: black;
+        transition: 0.7s;
+    }
+
+
+    #navbarNav ul li a:hover {
+        color: rgb(167, 12, 214);
+    }
+}
+
+@media (max-width:992px) {
+    /* -------------header------------------- */
+
+    #navbarNav {
+        margin-right: 3em;
+    }
+    
+    #navbarNav ul{
+        display: flex;
+        gap: 0em;
+    }
+    #navbarNav ul li a{
+        margin-left: 5.5em;
+    }
+
+    #navbarNav ul li a:hover{
+        color: rgb(167, 12, 214);
+    }
+}
+
+@media (max-width:576px) {
+    /* -------------header------------------- */
+
+    #navbarNav ul li a{
+        margin-left: 2.5em;
+    }
+
+}
+
+@media (max-width:450px) {
+    /* -------------header------------------- */
+
+    #navbarNav ul li a{
+        margin-left: 2em;
+    }
+
+}
+
+
 @media (max-width:1050px) {
 
-
-    /* -------------header------------------- */
-        
-        /* .navbar-nav{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 2.5em;
-            margin-left: 10em;
-        
-        }
-        
-        .navbar-nav a{
-            font-size: 1.15em;
-            font-weight: 500;
-        }    
-    
-    .navbar-toggler{
-        align-self: center;
-        margin-left: 90%;
-    
-    }  */
-    
-    
-    
     /* -------------Index sectionFive------------------- */
     
     .socialIntro .socialIcon{
@@ -286,6 +337,7 @@
     
     .technology1Picture2, .technology1Picture3, .technology1Picture4{
         width: 100%;
+
     
     }
     
@@ -295,6 +347,7 @@
             border: solid rgb(71, 68, 68) 2px;
             width: 80%;
             min-width: 70%;
+
     
     } 
     
@@ -534,11 +587,53 @@
     
     /* --------------indexThree---------------- */
     
-    .containerIndexThree{
-        width: 90%;
-        margin: 1em 0em 1em 0em;
-        gap: 1.5em;
+    // .containerIndexThree{
+    //     width: 90%;
+    //     margin: 1em 0em 1em 0em;
+    //     gap: 1.5em;
+    // }
+
+        
+    /* -------------index section Three------------------- */
+    
+    .indexSectionThree{
+        grid-area: index3;
+        width: 100%;
     }
+    
+    .containerIndexThree{
+        display: flex;
+        flex-direction: column;
+    }
+    
+     .divisionIndexThree{
+        width: 95%;
+        max-width: 90%;
+        box-shadow: rgba(231, 223, 223, 0.473) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+    
+     .divisionIndexThree h2{
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-top: 1.5em;
+        margin-left: 1em;
+    }
+    
+    .divisionIndexThree p{
+        font-size: 1.1em;
+        line-height: 1.4em;
+        margin-top: 0.5em;
+        margin-left: 1em;
+        width: 85%;
+    } 
+    
+    .blockchainIcon{
+        margin-left: 1em;
+        width: 3em;
+        height: 3em;
+    }
+    
+    
     
     /* --------------IndexFour---------------- */
     
@@ -645,11 +740,10 @@
     }
     
      .divisionTechnology{
-        background-color: white;
         margin-left: 1em;
         width: 95%;
         max-width: 90%;
-    }
+        box-shadow: rgba(231, 223, 223, 0.473) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    }
     
      .divisionTechnology h2{
         font-size: 1.3em;
@@ -685,11 +779,14 @@
     }
     
      .divisionTechnology2{
-        background-color: white;
         margin-left: 1em;
         width: 95%;
         max-width: 90%;
+        box-shadow: rgba(231, 223, 223, 0.473) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  
     }
+
+
+    
     
      .divisionTechnology2 h2{
         font-size: 1.3em;
@@ -714,11 +811,8 @@
     }
     
     
+}
     
-    
-    
-    
-    } 
     
     
     
@@ -965,53 +1059,8 @@
     
     
     }
-    
-    /* -------------index section Three------------------- */
-    
-    .indexSectionThree{
-        grid-area: index3;
-        width: 100%;
-    }
-    
-    .containerIndexThree{
-        display: flex;
-        flex-direction: column;
-    }
-    
-     .divisionIndexThree{
-        margin-left: 1em;
-        width: 95%;
-        max-width: 90%;
-    }
-    
-     .divisionIndexThree h2{
-        font-size: 1.3em;
-        font-weight: bold;
-        margin-top: 1.5em;
-        margin-left: 1em;
-    }
-    
-    .divisionIndexThree p{
-        font-size: 1.1em;
-        line-height: 1.4em;
-        margin-top: 0.5em;
-        margin-left: 1em;
-        width: 85%;
-    } 
-    
-    .blockchainIcon{
-        margin-left: 1em;
-        width: 3em;
-        height: 3em;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
+
+
     
     /* -------------index section Four------------------- */
     
@@ -1123,7 +1172,10 @@
     
     /* -------------footer------------------- */
     
-    
+    .footerEnd{
+        margin-left: 2.2em;
+
+    }
     
     
     

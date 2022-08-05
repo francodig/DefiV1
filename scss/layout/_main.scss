@@ -1,7 +1,6 @@
 /* ---------------------index1-------------------- */
 
 .background{
-    /* background-image: url(../Assets/pictures/background.jpg); */
     background: rgb(170, 75, 107);  
     background: -webkit-linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg); 
     background: linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg);
@@ -11,7 +10,6 @@
 
 }
 .indexSectionOne{
-    /* background-color: #810955;  */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -134,16 +132,15 @@
 .divisionIndexThree{
     width: 20em;
     padding: 1em;
-    border-radius: 15px;
-    
+    border-radius: 15px;  
+    transition: 0.6s;  
 }
 
 .divisionIndexThree:hover{
-    background: #355C7D;  
-    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
-    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
+    background-color: rgba(221, 209, 209, 0.149);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     
-
 }
 
 .divisionIndexThree h2{
@@ -430,7 +427,6 @@
 
 
 .socialNetworks{ 
-    /* background-color: #610C63; */
     padding: 1em;
     width: 100%;
     display: flex;
@@ -445,14 +441,14 @@
 
 
 .socials{
-    /* background-color: #610C63; */
     padding: 0.25em;
     margin-top: 3rem;
     margin-bottom: 5em;
     width: 18%;
     text-align: center;
-    // box-shadow: 0 18px 36px -18px rgba(199, 194, 194, 0.3), 0 30px 60px -12px rgb(50 50 93 / 25%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
     transition: 0.8s;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.671) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .socials:hover{
@@ -503,16 +499,7 @@
     background-size: cover; 
 }
 
-/* background: rgb(170, 75, 107);  
-background: -webkit-linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg); 
-background: linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg);
-background-repeat: no-repeat;
-background-size: cover; */
-
-
 .technology1SectionOne{
-    /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);  */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -554,8 +541,6 @@ background-size: cover; */
 
 
 .technology1SectionTwo{
-    /* background: rgb(243,240,245);
-    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%; */
     display: flex;
     flex-direction: row;
 }
@@ -571,10 +556,7 @@ background-size: cover; */
     margin: 1em;
     color: white;
     padding-right: 1.5em ;
-
-
 }
-
 
 #list-example{
 position: sticky;
@@ -635,9 +617,14 @@ z-index: 1;
 
 /* -------------technology2 section1------------------- */
 
+
+.containerTech2{
+    background-image: url(../Assets/pictures/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .technology2SectionOne{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);   
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -704,7 +691,6 @@ z-index: 1;
 
 
 .technology2SectionTwo{
-    background-color: #FFF9D7;
     display: flex;
 
 }
@@ -718,19 +704,20 @@ z-index: 1;
     gap: 3em;
 }
 
+
 .divisionTechnology{
     width: 20em;
     padding: 1em;
     border-radius: 15px;
-
+    transition: 0.6s;
+    color: white;
 }
 
 
 .divisionTechnology:hover{
-    background: #355C7D;  
-    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
-    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
-
+    background-color: #7953e2;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 
@@ -754,8 +741,6 @@ z-index: 1;
 /* -------------technology2 section3------------------- */
 
 .technology2SectionThree{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -819,7 +804,6 @@ z-index: 1;
 /* -------------technology2 section4------------------- */
 
 .technology2SectionFour{
-    background-color: #FFF9D7;
     display: flex;
 
 }
@@ -829,7 +813,7 @@ z-index: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 1em auto;
+    margin: 5em auto;
     gap: 3em;
 }
 
@@ -837,15 +821,16 @@ z-index: 1;
     width: 20em;
     padding: 1em;
     border-radius: 15px;
+    transition: 0.6s;
+    color: white;
 
 }
 
 .divisionTechnology2:hover{
-    background: #355C7D;  
-    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
-    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
-
-
+    background-color: #7953e2;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
 }
 
 .divisionTechnology2 h2{
@@ -871,8 +856,6 @@ z-index: 1;
 /* -------------technology2 section5------------------- */
 
 .technology2SectionFive{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(178,82,236,1) 94%, rgba(142,9,199,1) 100%);    height: 38em;
     display: flex;
     flex-direction: row;
     width: 100%;

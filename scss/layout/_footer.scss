@@ -3,7 +3,7 @@
 /* ---------------------footer-------------------- */
 
 .containerFooter{
-    background-color: #FFF9D7;
+    background-color: $variable;
     display: flex;
     flex-direction: column;
 }
@@ -75,19 +75,13 @@
 .socialListIcons li a span{
     opacity: 0;
     transition: 0.5s ease-in;
+    font-size: 1em;
 
 }
 
 .socialListIcons li:hover a span{
     opacity: 2;
 }
-
-.fa-brands{
-    color: rgb(31, 31, 31);
-    font-size: 4em;
-    transition: 0.8s;
-
-} 
 
 .fa-brands{
     color: rgb(31, 31, 31);

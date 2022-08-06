@@ -4,3 +4,42 @@
     font-size: 2em;
     margin-left: 0.5em;
 }
+
+@mixin atributosH3
+{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+
+}
+
+@mixin atributosH-
+{
+    color: white;
+    font-size: 2em;
+}
+
+@mixin atributosH3-
+{
+    color:white;
+    font-size: 1.5em;
+}
+
+@mixin atributosP
+{
+    margin-top: 1.7em;
+    line-height: 1.7em;
+    font-size: 1.2em;
+    margin-left: 1em;
+    color: white;
+    width: 85%
+}
+
+@mixin atributosP-
+{
+    margin-top: 1.7em;
+    line-height: 1.7em;
+    font-size: 1.2em;
+    color: white;
+    width: 85%
+}

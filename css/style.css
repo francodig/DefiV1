@@ -414,15 +414,15 @@ header {
   padding: 3em 0em 0em 4.5em; }
 
 .introToAura h2 {
-  color: white;
-  font-size: 2em;
-  margin-left: 0.5em; }
+  width: 90%;
+  font-size: 3.5em;
+  letter-spacing: normal;
+  color: white; }
 
 .introToAura p {
   margin-top: 1.7em;
   line-height: 1.7em;
-  font-size: 1.1em;
-  margin-left: 1em;
+  font-size: 1.25rem;
   color: white; }
 
 .techPicture1 {
@@ -442,9 +442,7 @@ header {
 
 .column2 {
   width: 75%;
-  margin: 1em;
-  color: white;
-  padding-right: 1.5em; }
+  color: white; }
 
 #list-example {
   position: sticky;
@@ -483,17 +481,22 @@ header {
   font-size: 2em;
   margin-left: 0.5em; }
 
+.whyAura a, .auraWorks a, .auraWorks2 a, .auraGoing a, .introToAura a {
+  color: #ab00fa;
+  text-decoration: none; }
+
 .auraWorks h3, .auraWorks2 h3 {
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-left: 0.5em; }
 
 .whyAura p, .auraWorks p, .auraGoing p, .auraWorks p, .auraWorks p {
   margin-top: 1.7em;
   line-height: 1.7em;
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-left: 1em;
-  color: white; }
+  color: white;
+  width: 85%; }
 
 /* --------------TechnologyTwo---------------- */
 /* -------------technology2 section1------------------- */
@@ -725,12 +728,12 @@ header {
 .tech3Intro h2 {
   margin-top: 1.2em;
   width: 100%;
-  font-size: 4.2em;
+  font-size: 3.6em;
   margin-bottom: 0.6em; }
 
 .tech3Intro p {
   width: 75%;
-  font-size: 25px;
+  font-size: 1.5em;
   line-height: 1.67;
   letter-spacing: -.17px; }
 
@@ -766,7 +769,7 @@ header {
 .technology3SectionTwo h3 {
   margin-bottom: 1.5em;
   text-align: center;
-  font-size: 3.2em;
+  font-size: 2.5em;
   color: white; }
 
 .divisionTechnology3 h2 {
@@ -804,7 +807,7 @@ header {
 
 .aurSupply p {
   width: 95%;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   margin-top: 1.5rem;
   color: white; }
 
@@ -820,7 +823,7 @@ header {
 
 .aurBuy p {
   width: 95%;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   margin-top: 1.5rem;
   color: white; }
 
@@ -855,7 +858,7 @@ header {
   height: 80%; }
 
 .soul {
-  padding: 1em;
+  padding: 1em 1em 0em 1em;
   width: 95%; }
 
 .soul h2 {
@@ -870,8 +873,11 @@ header {
   margin-top: 1.5rem; }
 
 .soulIs {
-  padding: 1em;
+  padding: 0em 1em 1em 1em;
   width: 95%; }
+
+.soulIs p {
+  font-size: 1.5em; }
 
 .soulIs ul {
   width: 100%;
@@ -909,17 +915,19 @@ header {
   width: 100%; }
 
 .whySoul h2, .concesusProtocol h2, .soulConcensus h2, .soulWork h2 {
-  font-size: 2.3em;
-  font-weight: 700; }
+  color: white;
+  font-size: 2em; }
 
 .whySoul h3, .concesusProtocol h3, .soulConcensus h3, .soulWork h3 {
-  font-size: 1.8em; }
+  color: white;
+  font-size: 1.5em; }
 
 .whySoul p, .concesusProtocol p, .soulConcensus p, .soulWork p {
-  width: 85%;
-  line-height: 1.95rem;
-  font-size: 1.15rem;
-  margin-top: 1.5rem; }
+  margin-top: 1.7em;
+  line-height: 1.7em;
+  font-size: 1.2em;
+  color: white;
+  width: 85%; }
 
 /* ---------------------footer-------------------- */
 .containerFooter {
@@ -981,6 +989,7 @@ header {
   font-size: 1em; }
 
 .socialListIcons li:hover a span {
+  color: #7953e2;
   opacity: 2; }
 
 .fa-brands {
@@ -989,7 +998,7 @@ header {
   transition: 0.8s; }
 
 .fa-brands:hover {
-  color: beige; }
+  color: #7953e2; }
 
 .footerEnd {
   margin-top: 2.5em;

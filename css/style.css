@@ -895,8 +895,6 @@ header {
 
 /* ----------------technology4 Section two------------------------------- */
 .technology4SectionTwo {
-  /* background: rgb(243,240,245);
-    background: linear-gradient(90deg, rgba(243,240,245,1) 0%, rgba(213,178,230,1) 94%, rgba(200,117,236,1) 100%);    width: 100%; */
   grid-area: tech42;
   display: flex;
   flex-direction: row; }
@@ -1551,6 +1549,8 @@ header {
     padding: 3em 0.5em 0 1.5em;
     width: 100%;
     margin-bottom: 0.5em; }
+  .introToAura h2 {
+    font-size: 2.6em; }
   .technology1Picture1 {
     width: 100%;
     padding: 1em 0.5em 0em 1em; }
@@ -1877,7 +1877,7 @@ header {
     width: 95%; }
   .soul h2 {
     width: 100%;
-    font-size: 2.8em; }
+    font-size: 2.5em; }
   .soul p {
     width: 100%;
     line-height: 1.95rem;

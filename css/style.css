@@ -1696,7 +1696,12 @@ header {
     margin: 2em 0em 2em 1.5em; }
   /* -------------footer------------------- */
   .footerEnd {
-    margin-left: 2.2em; } }
+    margin-left: 2.2em; }
+  /* -------------technology1------------------- */
+  .technology1SectionOne {
+    padding: 0em 0.5em 0em 0.5em; }
+  .introToAura {
+    padding: 3em 1.5em 0em 0.5em; } }
 
 @media (max-width: 375px) {
   .socialNetworks {

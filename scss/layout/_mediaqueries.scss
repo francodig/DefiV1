@@ -839,7 +839,6 @@
         width: 50%;
         min-width: 42%;
         text-align: center;
-        // box-shadow: 0 18px 36px -18px rgba(252, 252, 252, 0.3), 0 30px 60px -12px rgb(50 50 93 / 25%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
         transition: 0.8s;
     }
     
@@ -1239,6 +1238,19 @@
     
     }
 
+    .technology1Picture2, .technology1Picture3, .technology1Picture4{
+        padding: 0em 3em 0em 1.5em;
+    
+    }
+    
+    .tech1Picture2, .tech1Picture3, .tech1Picture4{
+        display: block;
+        border: solid rgb(71, 68, 68) 2px;
+        width: 90%;
+        height: 80%;
+    
+    } 
+    
 
     } 
     
@@ -1362,18 +1374,18 @@
     
     }
     
-    .technology1Picture2, .technology1Picture3, .technology1Picture4{
-        width: 100%;
+    // .technology1Picture2, .technology1Picture3, .technology1Picture4{
+    //     width: 100%;
     
-    }
+    // }
     
-    .tech1Picture2, .tech1Picture3, .tech1Picture4{
-            display: block;
-            margin-left: 0.5em;
-            border: solid rgb(71, 68, 68) 2px;
-            width: 90%;
+    // .tech1Picture2, .tech1Picture3, .tech1Picture4{
+    //         display: block;
+    //         margin-left: 0.5em;
+    //         border: solid rgb(71, 68, 68) 2px;
+    //         width: 90%;
     
-    } 
+    // } 
     
     
     /* -------------technology2 section1------------------- */

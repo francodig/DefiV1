@@ -964,6 +964,9 @@ header {
   text-decoration: none;
   color: black; }
 
+.footerLists li a:hover {
+  color: #7953e2; }
+
 .footerIcons {
   padding: 2em;
   width: 40%; }
@@ -1729,7 +1732,14 @@ header {
   .column22 {
     padding-left: 2em; }
   .whySoul, .concesusProtocol, .soulConcensus, .soulWork {
-    width: 100%; } }
+    width: 100%; }
+  .technology1Picture2, .technology1Picture3, .technology1Picture4 {
+    padding: 0em 3em 0em 1.5em; }
+  .tech1Picture2, .tech1Picture3, .tech1Picture4 {
+    display: block;
+    border: solid #474444 2px;
+    width: 90%;
+    height: 80%; } }
 
 @media (max-width: 375px) {
   .socialNetworks {
@@ -1808,13 +1818,6 @@ header {
     padding-right: 1em; }
   .column2 {
     color: white; }
-  .technology1Picture2, .technology1Picture3, .technology1Picture4 {
-    width: 100%; }
-  .tech1Picture2, .tech1Picture3, .tech1Picture4 {
-    display: block;
-    margin-left: 0.5em;
-    border: solid #474444 2px;
-    width: 90%; }
   /* -------------technology2 section1------------------- */
   .stakeAura h2 {
     font-size: 2.2em; }

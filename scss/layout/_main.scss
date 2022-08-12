@@ -1,0 +1,1202 @@
+/* ---------------------index1-------------------- */
+
+.background{
+    background: rgb(170, 75, 107);  
+    background: -webkit-linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg); 
+    background: linear-gradient(to right, rgba(59, 140, 153, 0.2), rgba(107, 107, 131, 0.2), rgba(170, 75, 107, 0.50)), url(../Assets/pictures/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.indexSectionOne{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+
+}
+
+.containerIndexOne{
+    h1{
+     width: 90%;
+     margin-left: 0.7em;
+     margin-top: 1.25em;
+     font-size: 5.5rem;
+     color: white;
+ }
+
+    h2{
+     margin-top: 1em;
+     margin-left: 1.2em;
+     font-size: 3.5rem;
+     color: white;
+
+ }
+
+    p{
+     width: 70%;
+     margin-left: 2.2em;
+     margin-top: 2em;
+     line-height: 2.6rem;
+     font-size: 1.8rem;
+     color: white;
+
+ }
+}
+
+ .DiscoverAuraButton{
+     width: 7em;
+     border: 3px solid;
+     border-radius: 20px;
+     border-color: white;
+     color: white;
+     font-size: 1.5rem;
+     margin: 1.2em 0em 2.5em 2.5em;
+     padding: 0.3rem;
+     text-decoration: none;
+     text-align: center;
+     transition: 0.8s;
+     &:hover{
+        background-color: #5B4B8A;
+        color: white;
+        font-size: 1.6em;
+    }   
+
+ }
+
+/* ---------------------index2-------------------- */
+ .indexSectionTwo{
+    width: 100%;
+    display: flex;
+    
+    }
+
+.containerIndexTwo{
+    h2{
+        color: white;
+        margin-top: 2em;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    h3{
+        font-size: 2.4em;
+        margin-top: 1rem;
+        text-align: center;
+        color: white;
+    }
+    p{
+        margin: auto;
+        font-size: 1.4em;
+        margin-top: 1em;
+        text-align: center;
+        width: 75%;
+        color: white;
+    }  
+
+}
+.videoIndex2{
+    display: block;
+    margin: 2em auto;
+    width: 70em;
+    max-width: 90%;
+    height: 35em;
+} 
+
+/* ---------------------index3-------------------- */
+
+.indexSectionThree{
+    display: flex;
+
+}
+
+.containerIndexThree{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1em auto;
+    gap: 3em;
+    .divisionIndexThree{
+        width: 20em;
+        padding: 1em;
+        border-radius: 15px;  
+        transition: 0.6s;
+        h2{
+            margin-top: 1em;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        
+        }
+        p{
+            font-size: 1rem;
+            line-height: 1.4rem;
+            width: 90%;
+            color: white;
+        
+        } 
+        &:hover{
+            background-color: rgba(221, 209, 209, 0.149);
+            color: white;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        } 
+    }
+}
+
+.blockchainIcon{
+    width: 3.5em;
+    height: 3.5em;
+}
+ 
+
+/* ---------------------index4-------------------- */
+  
+.indexSectionFour{
+    width: 100%;
+ }
+ 
+
+.introIndexFour{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+
+.introIndexFour h2{
+    color: white;
+    margin-top: 2em;
+    font-size: 3rem;
+    margin-left: 1rem;
+    border-bottom: none;
+}
+
+.introIndexFour p{
+    color: white;
+    font-size: 1.8em;
+    width: 95%;
+    margin-left: 1rem;
+
+} 
+.intro1{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid white;
+}
+
+
+.buttonBuildNow{
+    width: 6em;
+    border: 3px solid;
+    border-radius: 16px;
+    border-color: white;
+    color: white;
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    margin-top: 6em;
+    padding: 0.2rem;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.8s;
+}
+
+.buttonBuildNow:hover{
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.1rem;
+
+}
+
+
+
+.divisionsIndexFour{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0.2em;
+}
+
+
+
+.divisionIndexFour1 , .divisionIndexFour2, .divisionIndexFour3{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 2em;
+    padding: 0.5em;
+    -webkit-box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+}
+
+.divisionIndexFour1 h2, .divisionIndexFour2 h2,.divisionIndexFour3 h2{
+    color: white;
+    font-size: 1.7em;
+    width: 85%;
+}
+
+.divisionIndexFour1 p, .divisionIndexFour2 p,.divisionIndexFour3 p{
+    color: white;
+    width: 100%;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-top: 1.5em;
+} 
+
+.buttonArrow{
+    margin-top: 3em;
+    font-weight: bold;
+}
+
+.buttonArrow1{
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+.fa-solid{
+    font-size: 1.5em;
+    color: white;
+    transition: 0.5s;
+} 
+
+.fa-solid:hover{
+    color: rgb(133, 116, 145);
+}
+
+/* ---------------------index5-------------------- */
+
+
+.containerIndexFive{
+    width: 100%;
+    grid-area: index5;
+    background-color: white;
+}
+
+.containerIndexFiveBackers{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerIndexFiveBackers h2{
+    margin-top: 1.2em;
+    font-size: 4.8em;
+
+} 
+
+.backers{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 6em;
+    grid-row-gap: 3em;
+    margin: 2em auto;
+    padding-right: 2em;
+    justify-content: center;
+}
+
+.backers li{
+    list-style: none;
+
+} 
+
+.backers li img{
+    max-width: 12.5em;
+    max-height: 5.37em;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+
+} 
+
+.backers li img:hover{
+    opacity: 0.5;
+}
+
+.containerIndexFiveSupporters{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerIndexFiveSupporters h2{
+    margin-top: 1.2em;
+    font-size: 4.8em;
+
+}
+
+.supporters{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 6em;
+    grid-row-gap: 3em;
+    margin: 2em auto;
+    padding-right: 2em;
+    justify-content: center;
+
+}
+
+.supporters li{
+    list-style: none;
+
+}  
+
+.supporters li img{
+    max-width: 12.5em;
+    max-height: 5.37em;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+
+}
+ 
+.supporters li img:hover{
+    opacity: 0.5;
+}
+
+
+/* ---------------------index6-------------------- */
+
+
+.indexSectionSix{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerIndexSix h2{
+    color: white;
+    margin-left: 1rem;
+    margin-top: 2em;
+    font-size: 1.4em;
+    text-align: center;
+
+}
+
+
+.containerIndexSix h3{
+    margin-left: 1rem;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+
+}
+
+.containerIndexSix p{
+    margin: auto;
+    font-size: 1.4em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    width: 75%;
+    color: white;
+}
+
+
+
+.socialNetworks{ 
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.socialcontainer{
+    padding: 0.5em;
+}
+
+
+.socials{
+    padding: 0.25em;
+    margin-top: 3rem;
+    margin-bottom: 5em;
+    width: 18%;
+    text-align: center;
+    transition: 0.8s;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.671) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.socials:hover{
+    transform: translateY(-25px);
+    cursor: pointer;
+    
+}
+
+.socials h3{
+    margin-top: 1.9rem;
+    margin-left: 0.1em;
+    text-align: center;
+    align-items: center;
+    line-height: 0rem;
+    font-size: 1.2em;
+
+}
+
+.socials p{
+    color: white;
+    display: contents;
+    font-size: 1.2em;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socialIntro{
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+}
+.socialIntro .socialIcon{
+    margin-left: 22%;
+    
+}
+
+/* -------------technology1------------------- */
+
+.containerTech1{
+    background-image: url(../Assets/pictures/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.technology1SectionOne{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.introToAura{   
+    padding: 3em 0.5em 0 5em;
+    width: 45%;
+    margin-bottom: 10em;
+}
+
+.technology1Picture1{
+    width: 55%;
+    padding: 3em 0em 0em 4.5em;
+}
+
+.introToAura h2{
+    width: 90%;
+    font-size: 3.5em;
+    letter-spacing: normal;
+    color: white;
+
+
+}
+
+.introToAura p{
+    margin-top: 1.7em;
+    line-height: 1.7em;
+    font-size: 1.25rem;
+    color: white;
+}
+
+
+
+.techPicture1{
+    display: block;
+    border: solid rgb(71, 68, 68) 2px;
+    width: 80%;
+    height: 80%;
+}
+
+
+.technology1SectionTwo{
+    display: flex;
+    flex-direction: row;
+}
+
+.column1{
+    display: block;
+    width: 25%;
+    margin: 1em;
+}
+
+.column2{
+    width: 75%;
+    color: white;
+}
+
+#list-example{
+position: sticky;
+top: 70px;
+z-index: 1;
+}
+
+#list-example a{
+    margin: 0.20em auto;
+    width: 80%;
+    transition: 0.8s;
+}
+
+.list-group a:hover{
+    background-color: #7953e2;
+    color: white;
+}
+
+
+.tech1Picture2{
+    display: block;
+    margin: 4em 1em;
+    border: solid rgb(71, 68, 68) 2px;
+    width: 70%;
+}
+
+.tech1Picture3{
+    display: block;
+    margin: 4em 1em;
+    border: solid rgb(71, 68, 68) 2px;
+    width: 70%;
+}
+
+.tech1Picture4{
+    display: block;
+    margin: 4em 1em;
+    border: solid rgb(71, 68, 68) 2px;
+    width: 70%;
+}
+
+.whyAura h2, .auraWorks h2, .auraGoing h2{
+    @include atributosH;
+}
+
+.whyAura a, .auraWorks a, .auraWorks2 a, .auraGoing a, .introToAura a{
+    color: #ab00fa;
+    text-decoration: none;
+
+}
+
+
+.auraWorks h3, .auraWorks2 h3{
+    @include atributosH3;
+}
+
+
+.whyAura p, .auraWorks p, .auraGoing p,.auraWorks p, .auraWorks p{
+    @include atributosP;
+}
+
+
+
+
+/* --------------TechnologyTwo---------------- */
+
+
+/* -------------technology2 section1------------------- */
+
+
+.containerTech2{
+    @extend .containerTech1;
+}
+
+.technology2SectionOne{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.stakeAura{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 3em 0.5em 5em 5em;
+    color: white;
+    gap: 1.5em;
+}
+
+.technology2Picture1{
+    width: 55%;
+    padding: 3em 0em 0em 4.5em;
+
+}
+
+.tech2Picture1{
+    display: block;
+    border: solid black 3px;
+    width: 80%;
+    height: 80%;
+}
+
+.stakeAura h2{
+    font-size: 3.5em;
+}
+
+.stakeAura p{
+    font-size: 1.8em;
+}
+
+
+.stakeYourAurButton{
+    width: 8em;
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    font-size: 1.3rem;
+    margin: 0.5em 0em 2.5em 0 -0em;
+    padding: 0.3rem;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.8s;
+
+}
+
+.stakeYourAurButton:hover{
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.4em;
+}   
+
+
+
+
+
+/* -------------technology2 section2------------------- */
+
+
+.technology2SectionTwo{
+    display: flex;
+
+}
+
+.containerTechnology2{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1em auto;
+    gap: 3em;
+}
+
+
+.divisionTechnology{
+    width: 20em;
+    padding: 1em;
+    border-radius: 15px;
+    transition: 0.6s;
+    color: white;
+}
+
+
+.divisionTechnology:hover{
+    background-color: $variable1;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.divisionTechnology h2{
+    margin-top: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.divisionTechnology p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    width: 90%;
+} 
+
+.blockchainIcon{
+    @extend .blockchainIcon;
+}
+ 
+/* -------------technology2 section3------------------- */
+
+.technology2SectionThree{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.fluidRewards{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 3em 0.5em 0 5em;
+    color: white;
+    gap: 1.5em;
+}
+
+.technology2Picture2{
+    width: 55%;
+    padding: 3em 0em 0em 4.5em;
+
+}
+
+.tech2Picture2{
+    display: block;
+    border: solid black 3px;
+    width: 80%;
+    height: 80%;
+}
+
+.fluidRewards h2{
+    font-size: 3.5em;
+}
+
+.fluidRewards p{
+    font-size: 1.5em;
+}
+
+.earnRewardsButton{
+    width: 8em;
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    font-size: 1.3rem;
+    margin: 0.5em 0em 2.5em 0 -0em;
+    padding: 0.3rem;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.8s;
+
+}
+
+.earnRewardsButton:hover{
+    background-color: #5B4B8A;
+    color: white;
+    font-size: 1.4em;
+}   
+
+
+
+
+/* -------------technology2 section4------------------- */
+
+.technology2SectionFour{
+    display: flex;
+
+}
+
+.container2Technology2{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5em auto;
+    gap: 3em;
+}
+
+.divisionTechnology2{
+    width: 20em;
+    padding: 1em;
+    border-radius: 15px;
+    transition: 0.6s;
+    color: white;
+
+}
+
+.divisionTechnology2:hover{
+    background-color: $variable1;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+.divisionTechnology2 h2{
+    margin-top: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.divisionTechnology2 p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    width: 90%;
+} 
+
+.blockchainIcon{
+    width: 3.5em;
+    height: 3.5em;
+}
+
+
+
+
+/* -------------technology2 section5------------------- */
+
+.technology2SectionFive{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+.container2Technology3{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 3em 0.5em 0 5em;
+    color: white;
+    gap: 1.5em;
+}
+
+.technologyValidators{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    gap: 1.5em;
+}
+
+.technologyValidators h2{
+    font-size: 3.5em;
+
+}
+.technologyValidators p{
+    font-size: 1.5em;
+
+}
+
+.requirements{
+    margin-bottom: 5em;
+}
+
+.requirements li{
+    font-size: 1.2em;
+ }
+
+.technology2Picture3{
+    width: 55%;
+    padding: 3em 0em 0em 4.5em;
+
+}
+
+.tech2Picture3{
+    display: block;
+    border: solid black 3px;
+    width: 90%;
+    height: 90%;
+}
+
+
+/* ----------------technology3 Section one------------------------------- */
+
+
+.fathertech3{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "tech31"
+    "tech32"
+    "tech33"
+    "footer"
+}
+
+.containerTech3{
+    @extend .containerTech1;
+}
+
+.technology33SectionOne{
+    padding: 1em;
+    grid-area: tech31;
+}
+
+.tech3Intro{
+    width: 90%;
+    margin: 1em auto;
+    color: white;
+
+
+}
+
+.tech3Intro h2{
+    margin-top: 1.2em;
+    width: 100%;
+    font-size: 3.6em;
+    margin-bottom: 0.6em;
+}
+
+.tech3Intro p{
+    width: 75%;
+    font-size: 1.5em;
+    line-height: 1.67;
+    letter-spacing: -.17px;
+}
+ 
+
+/* ----------------technology3 Section 2------------------------------- */
+
+.technology3SectionTwo{
+    width: 100%;
+    grid-area: tech33;
+    height: auto;
+
+}
+
+.containerTechnology3{
+    padding: 1em;
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    color: white;
+
+
+}
+
+.divisionTechnology3{
+    margin: 0.5em auto;
+    width: 85%;
+    padding: 1em;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 28px -3px rgba(0,0,0,0.75);
+    transition: 0.6s; 
+
+}
+
+.divisionTechnology3:hover{
+    background-color: $variable1;
+    opacity: 1;
+}
+
+.technology3SectionTwo h3{
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+
+.divisionTechnology3 h2{
+    margin-top: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.divisionTechnology3 p{
+    font-size: 1.1em;
+    line-height: 1.7em;
+    width: 90%;
+} 
+
+.blockchainIcon3{
+    @extend .blockchainIcon;
+}
+
+
+.technology3Picture1{
+    width: 100%;
+    padding: 3em;
+}
+.tech3Picture1{
+    display: block;
+    border: solid black 3px;
+    width: 100%;
+} 
+
+/* ----------------technology3 Section 3------------------------------- */
+
+.technology3SectionThree{
+    width: 100%;
+    
+}
+.aurSupply{
+    width: 100%;
+    padding: 2em 2em 2em 4em;
+
+}
+
+.aurSupply h2{
+    width: 80%;
+    font-size: 2.6em;
+    font-weight: bold;
+    color: white;
+}
+
+.aurSupply p{
+    width: 95%;
+    font-size: 1.2em;
+    margin-top: 1.5rem;
+    color: white;
+}
+
+.aurBuy{
+    width: 100%;
+    padding: 2em 2em 2em 4em;
+
+
+}
+
+.aurBuy h2{
+    width: 80%;
+    font-size: 2.6em;
+    font-weight: bold;
+    color: white;
+
+}
+
+.aurBuy p{
+    width: 95%;
+    font-size: 1.2em;
+    margin-top: 1.5rem;
+    color: white;
+} 
+
+
+
+/* ----------------technology4 Section one------------------------------- */
+.fathertech4{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "tech41"
+    "tech42"
+    "footer"
+}
+
+.containerTech4{
+    @extend .containerTech1;
+}
+
+.technology4SectionOne{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5em;
+
+}
+
+.containerTechnology4{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 2em 0.5em 0 3em;
+    color: white;
+    gap: 1.5em;
+}
+
+.technology4Picture1{
+    width: 55%;
+    padding: 7em 0em 0em 4.5em;
+
+}
+
+.tech4Picture1{
+    display: block;
+    border: solid rgb(71, 68, 68) 2px;
+    width: 90%;
+    height: 80%;
+}
+
+
+.soul{
+    padding: 1em 1em 0em 1em;
+    width: 95%;
+
+}
+
+.soul h2{
+    width: 90%;
+    font-size: 3.5em;
+    letter-spacing: normal;
+}
+
+.soul p{
+    width: 100%;
+    line-height: 1.95rem;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+
+}
+
+.soulIs{
+    padding: 0em 1em 1em 1em;
+    width: 95%;
+}
+
+.soulIs p{
+    font-size: 1.5em;
+}
+
+
+
+.soulIs ul{
+    width: 100%;
+    margin-left: -1.3em;
+    padding-inline-start: 30px;
+    font-size: 1.15rem;
+}
+
+.soulIs ul li{
+    display: list-item;
+    margin-top: 1em;
+
+}
+
+.container2Technology4 li{
+    width: 80%;
+    margin-top: 0.25em;
+}
+
+/* ----------------technology4 Section two------------------------------- */
+
+.technology4SectionTwo{
+    grid-area: tech42;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.column11{
+    width: 25%;
+    padding: 1em;
+
+}
+
+.column22{
+    width: 75%;
+    color: white;
+}
+
+
+.whySoul, .concesusProtocol, .soulConcensus, .soulWork{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.whySoul h2, .concesusProtocol h2, .soulConcensus h2, .soulWork h2{
+    @include atributosH-;
+
+}
+
+.whySoul h3, .concesusProtocol h3, .soulConcensus h3, .soulWork h3{
+    @include atributosH3-;
+}
+
+.whySoul p, .concesusProtocol p, .soulConcensus p, .soulWork p{
+    @include atributosP-;
+
+}
+
+

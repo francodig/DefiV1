@@ -1,0 +1,24 @@
+
+header{
+    width: 100%;
+}
+
+.navbar{
+    background-color: $variable;
+}
+
+.logo{
+    width: 7em;
+    height: 7em;
+    border-radius: 20px;
+    margin: 2em 0em 2em 5em;
+}
+
+#navbarNav {
+    margin-right: 3em;
+}
+
+#navbarNav ul{
+    display: flex;
+    gap: 3em;
+}
